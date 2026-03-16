@@ -116,7 +116,7 @@ MetadataToFunction/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YourUsername/MetadataToFunction.git
+git clone https://github.com/PseudoPrashant/MetadataToFunction.git
 cd MetadataToFunction
 ```
 
