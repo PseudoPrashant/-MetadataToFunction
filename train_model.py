@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv("C:\\Users\\prash\\OneDrive\\Desktop\\Zenithra assessment\\AI MODEL 1st ASSESSMENT\\trainingDataset.csv") #dataFrame variable 
+df = pd.read_csv("trainingDataset.csv") #dataFrame variable 
 
 df["combined"] = (
     df["description"] + " " +
