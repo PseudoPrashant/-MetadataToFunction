@@ -1,0 +1,1081 @@
+description,parameters,return_type,library,keywords,param_count,function_name
+Implements logic to add numbers.,String path,float,CryptoUtils,"add,sum,arithmetic",1,addNumbers
+Adds functionality to add numbers.,String text,Object,DateUtils,"add,sum,arithmetic",1,addNumbers
+Implements logic to add numbers.,String path,float,CollectionUtils,"add,sum,arithmetic",1,addNumbers
+API endpoint helper to add numbers.,"String source, String destination",float,PathUtils,"add,sum,arithmetic",2,addNumbers
+Helper method that can add numbers.,"int a, int b",HttpResponse,SecurityUtils,"add,sum,arithmetic",2,addNumbers
+Utility function used to add numbers.,String url,String,MathUtils,"add,sum,arithmetic",1,addNumbers
+Utility function used to add numbers.,String path,Object,ImageProcessor,"add,sum,arithmetic",1,addNumbers
+Service layer function to add numbers.,String path,void,SecurityUtils,"add,sum,arithmetic",1,addNumbers
+Utility function used to add numbers.,String text,String,CacheService,"add,sum,arithmetic",1,addNumbers
+Implements logic to add numbers.,Object data,HttpResponse,CollectionUtils,"add,sum,arithmetic",1,addNumbers
+Helper method that can add numbers.,Object data,float,CryptoUtils,"add,sum,arithmetic",1,addNumbers
+API endpoint helper to add numbers.,"String source, String destination",void,JsonUtils,"add,sum,arithmetic",2,addNumbers
+API endpoint helper to subtract numbers.,Array items,void,NetworkService,"subtract,difference,arithmetic",1,subtractNumbers
+Adds functionality to subtract numbers.,String input,int,Logger,"subtract,difference,arithmetic",1,subtractNumbers
+API endpoint helper to subtract numbers.,Array items,float,Parser,"subtract,difference,arithmetic",1,subtractNumbers
+Helper method that can subtract numbers.,"int a, int b",int,ConfigService,"subtract,difference,arithmetic",2,subtractNumbers
+Implements logic to subtract numbers.,String text,HttpResponse,HttpClient,"subtract,difference,arithmetic",1,subtractNumbers
+API endpoint helper to subtract numbers.,"String source, String destination",String,ArrayUtils,"subtract,difference,arithmetic",2,subtractNumbers
+Performs operation to subtract numbers.,Array items,bool,MathUtils,"subtract,difference,arithmetic",1,subtractNumbers
+Adds functionality to subtract numbers.,String url,int,Formatter,"subtract,difference,arithmetic",1,subtractNumbers
+Performs operation to subtract numbers.,"String source, String destination",bool,FileUtils,"subtract,difference,arithmetic",2,subtractNumbers
+Implements logic to subtract numbers.,String text,HttpResponse,Parser,"subtract,difference,arithmetic",1,subtractNumbers
+API endpoint helper to subtract numbers.,String input,void,MathUtils,"subtract,difference,arithmetic",1,subtractNumbers
+Provides capability to subtract numbers.,"int a, int b",bool,CryptoUtils,"subtract,difference,arithmetic",2,subtractNumbers
+API endpoint helper to multiply numbers.,"int a, int b",int,DatabaseService,"multiply,product,arithmetic",2,multiplyNumbers
+Adds functionality to multiply numbers.,Array items,Object,MathUtils,"multiply,product,arithmetic",1,multiplyNumbers
+API endpoint helper to multiply numbers.,String text,Object,DataUtils,"multiply,product,arithmetic",1,multiplyNumbers
+Implements logic to multiply numbers.,"Array items, Function fn",Object,Parser,"multiply,product,arithmetic",2,multiplyNumbers
+Utility function used to multiply numbers.,Array items,void,AuthService,"multiply,product,arithmetic",1,multiplyNumbers
+Implements logic to multiply numbers.,String text,void,Validator,"multiply,product,arithmetic",1,multiplyNumbers
+Core routine responsible for multiply numbers.,String text,bool,CollectionUtils,"multiply,product,arithmetic",1,multiplyNumbers
+Provides capability to multiply numbers.,"String source, String destination",void,ConfigService,"multiply,product,arithmetic",2,multiplyNumbers
+Provides capability to multiply numbers.,String url,Object,SystemUtils,"multiply,product,arithmetic",1,multiplyNumbers
+Performs operation to multiply numbers.,String input,Object,HttpClient,"multiply,product,arithmetic",1,multiplyNumbers
+Service layer function to multiply numbers.,String path,int,Logger,"multiply,product,arithmetic",1,multiplyNumbers
+Utility function used to multiply numbers.,Object data,Array,Validator,"multiply,product,arithmetic",1,multiplyNumbers
+Provides capability to divide numbers.,Object data,Object,Logger,"divide,quotient,arithmetic",1,divideNumbers
+Core routine responsible for divide numbers.,Object data,Object,AudioProcessor,"divide,quotient,arithmetic",1,divideNumbers
+Provides capability to divide numbers.,Object data,int,NetworkService,"divide,quotient,arithmetic",1,divideNumbers
+Performs operation to divide numbers.,"String source, String destination",String,DatabaseService,"divide,quotient,arithmetic",2,divideNumbers
+Performs operation to divide numbers.,String input,Object,SystemUtils,"divide,quotient,arithmetic",1,divideNumbers
+Utility function used to divide numbers.,"String source, String destination",Array,DateUtils,"divide,quotient,arithmetic",2,divideNumbers
+Helper method that can divide numbers.,"int a, int b",float,ArrayUtils,"divide,quotient,arithmetic",2,divideNumbers
+Service layer function to divide numbers.,"int a, int b",bool,Formatter,"divide,quotient,arithmetic",2,divideNumbers
+Implements logic to divide numbers.,Array items,float,CompressionUtils,"divide,quotient,arithmetic",1,divideNumbers
+Implements logic to divide numbers.,"Array items, Function fn",float,PathUtils,"divide,quotient,arithmetic",2,divideNumbers
+Core routine responsible for divide numbers.,Object data,Object,CryptoUtils,"divide,quotient,arithmetic",1,divideNumbers
+Provides capability to divide numbers.,"float value1, float value2",float,CompressionUtils,"divide,quotient,arithmetic",2,divideNumbers
+Helper method that can calculatePower.,"float value1, float value2",bool,CompressionUtils,"power,exponent,math",2,calculatePower
+Adds functionality to calculatePower.,Array items,bool,DatabaseService,"power,exponent,math",1,calculatePower
+Adds functionality to calculatePower.,String path,Object,FileUtils,"power,exponent,math",1,calculatePower
+API endpoint helper to calculatePower.,"int a, int b",Array,MathUtils,"power,exponent,math",2,calculatePower
+Implements logic to calculatePower.,Array items,bool,Validator,"power,exponent,math",1,calculatePower
+Core routine responsible for calculatePower.,"Array items, Function fn",void,SystemUtils,"power,exponent,math",2,calculatePower
+Provides capability to calculatePower.,String path,void,ConfigService,"power,exponent,math",1,calculatePower
+API endpoint helper to calculatePower.,String url,Object,CollectionUtils,"power,exponent,math",1,calculatePower
+Utility function used to calculatePower.,Object data,Object,ConfigService,"power,exponent,math",1,calculatePower
+Utility function used to calculatePower.,Array items,void,MathUtils,"power,exponent,math",1,calculatePower
+Core routine responsible for calculatePower.,"Array items, Function fn",float,DataUtils,"power,exponent,math",2,calculatePower
+API endpoint helper to calculatePower.,String input,bool,ImageProcessor,"power,exponent,math",1,calculatePower
+Utility function used to calculateSquareRoot.,Object data,void,DatabaseService,"sqrt,root,math",1,calculateSquareRoot
+Core routine responsible for calculateSquareRoot.,Array items,void,NetworkService,"sqrt,root,math",1,calculateSquareRoot
+Helper method that can calculateSquareRoot.,String text,Array,Validator,"sqrt,root,math",1,calculateSquareRoot
+Core routine responsible for calculateSquareRoot.,Object data,void,ConfigService,"sqrt,root,math",1,calculateSquareRoot
+Core routine responsible for calculateSquareRoot.,Array items,void,Validator,"sqrt,root,math",1,calculateSquareRoot
+Adds functionality to calculateSquareRoot.,String text,String,SecurityUtils,"sqrt,root,math",1,calculateSquareRoot
+API endpoint helper to calculateSquareRoot.,"Array items, Function fn",void,PathUtils,"sqrt,root,math",2,calculateSquareRoot
+Adds functionality to calculateSquareRoot.,"Array items, Function fn",String,CompressionUtils,"sqrt,root,math",2,calculateSquareRoot
+Core routine responsible for calculateSquareRoot.,"float value1, float value2",String,CacheService,"sqrt,root,math",2,calculateSquareRoot
+Service layer function to calculateSquareRoot.,String url,Array,SecurityUtils,"sqrt,root,math",1,calculateSquareRoot
+Performs operation to calculateSquareRoot.,Object data,HttpResponse,NetworkService,"sqrt,root,math",1,calculateSquareRoot
+Adds functionality to calculateSquareRoot.,String text,float,AuthService,"sqrt,root,math",1,calculateSquareRoot
+Implements logic to clampValue.,String url,void,DatabaseService,"clamp,limit,bound",1,clampValue
+Internal method designed to clampValue.,"float value1, float value2",bool,FileUtils,"clamp,limit,bound",2,clampValue
+Implements logic to clampValue.,"Array items, Function fn",Array,StringUtils,"clamp,limit,bound",2,clampValue
+Service layer function to clampValue.,"int a, int b",Object,HttpClient,"clamp,limit,bound",2,clampValue
+Provides capability to clampValue.,"Array items, Function fn",float,Logger,"clamp,limit,bound",2,clampValue
+Provides capability to clampValue.,Array items,Array,AuthService,"clamp,limit,bound",1,clampValue
+Adds functionality to clampValue.,String path,bool,DateUtils,"clamp,limit,bound",1,clampValue
+Internal method designed to clampValue.,"String source, String destination",bool,DateUtils,"clamp,limit,bound",2,clampValue
+Implements logic to clampValue.,"float value1, float value2",int,MathUtils,"clamp,limit,bound",2,clampValue
+API endpoint helper to clampValue.,String input,bool,SystemUtils,"clamp,limit,bound",1,clampValue
+Core routine responsible for clampValue.,"String source, String destination",void,DateUtils,"clamp,limit,bound",2,clampValue
+Core routine responsible for clampValue.,String url,HttpResponse,Logger,"clamp,limit,bound",1,clampValue
+Utility function used to roundNumber.,"int a, int b",Array,CacheService,"round,precision,math",2,roundNumber
+Utility function used to roundNumber.,String input,Object,DataUtils,"round,precision,math",1,roundNumber
+Provides capability to roundNumber.,"Array items, Function fn",bool,AuthService,"round,precision,math",2,roundNumber
+Internal method designed to roundNumber.,String url,Object,SecurityUtils,"round,precision,math",1,roundNumber
+Performs operation to roundNumber.,Array items,HttpResponse,DateUtils,"round,precision,math",1,roundNumber
+Adds functionality to roundNumber.,Object data,float,PathUtils,"round,precision,math",1,roundNumber
+API endpoint helper to roundNumber.,"String source, String destination",String,FileUtils,"round,precision,math",2,roundNumber
+Provides capability to roundNumber.,String url,int,CollectionUtils,"round,precision,math",1,roundNumber
+Internal method designed to roundNumber.,"Array items, Function fn",String,Formatter,"round,precision,math",2,roundNumber
+Implements logic to roundNumber.,String url,void,FileUtils,"round,precision,math",1,roundNumber
+Provides capability to roundNumber.,"Array items, Function fn",float,CacheService,"round,precision,math",2,roundNumber
+Utility function used to roundNumber.,Object data,int,DatabaseService,"round,precision,math",1,roundNumber
+Service layer function to absoluteValue.,String url,Object,CacheService,"abs,absolute,math",1,absoluteValue
+API endpoint helper to absoluteValue.,String path,float,MathUtils,"abs,absolute,math",1,absoluteValue
+Core routine responsible for absoluteValue.,"Array items, Function fn",Array,FileUtils,"abs,absolute,math",2,absoluteValue
+Provides capability to absoluteValue.,String input,Object,MathUtils,"abs,absolute,math",1,absoluteValue
+Utility function used to absoluteValue.,"String source, String destination",int,ConfigService,"abs,absolute,math",2,absoluteValue
+Service layer function to absoluteValue.,"Array items, Function fn",float,Logger,"abs,absolute,math",2,absoluteValue
+Utility function used to absoluteValue.,Array items,bool,StringUtils,"abs,absolute,math",1,absoluteValue
+Core routine responsible for absoluteValue.,"float value1, float value2",float,HttpClient,"abs,absolute,math",2,absoluteValue
+Implements logic to absoluteValue.,String path,String,FileUtils,"abs,absolute,math",1,absoluteValue
+Performs operation to absoluteValue.,String url,Object,AudioProcessor,"abs,absolute,math",1,absoluteValue
+Service layer function to absoluteValue.,"float value1, float value2",String,MathUtils,"abs,absolute,math",2,absoluteValue
+Adds functionality to absoluteValue.,Array items,float,CryptoUtils,"abs,absolute,math",1,absoluteValue
+Helper method that can modulus.,"Array items, Function fn",int,AuthService,"mod,remainder,math",2,modulus
+Provides capability to modulus.,"String source, String destination",Array,CollectionUtils,"mod,remainder,math",2,modulus
+API endpoint helper to modulus.,"String source, String destination",HttpResponse,CacheService,"mod,remainder,math",2,modulus
+Performs operation to modulus.,"int a, int b",Array,Parser,"mod,remainder,math",2,modulus
+Implements logic to modulus.,"Array items, Function fn",float,CollectionUtils,"mod,remainder,math",2,modulus
+Helper method that can modulus.,"Array items, Function fn",int,Parser,"mod,remainder,math",2,modulus
+Internal method designed to modulus.,"float value1, float value2",Array,StringUtils,"mod,remainder,math",2,modulus
+Implements logic to modulus.,"float value1, float value2",Object,CacheService,"mod,remainder,math",2,modulus
+Utility function used to modulus.,"String source, String destination",HttpResponse,CollectionUtils,"mod,remainder,math",2,modulus
+Adds functionality to modulus.,"Array items, Function fn",float,HttpClient,"mod,remainder,math",2,modulus
+API endpoint helper to modulus.,String path,Object,SecurityUtils,"mod,remainder,math",1,modulus
+Helper method that can modulus.,String path,float,Parser,"mod,remainder,math",1,modulus
+Implements logic to average numbers.,"float value1, float value2",Object,DatabaseService,"average,mean,math",2,averageNumbers
+API endpoint helper to average numbers.,String url,String,DateUtils,"average,mean,math",1,averageNumbers
+Helper method that can average numbers.,String input,float,DataUtils,"average,mean,math",1,averageNumbers
+Internal method designed to average numbers.,"String source, String destination",float,DateUtils,"average,mean,math",2,averageNumbers
+Adds functionality to average numbers.,String text,int,ConfigService,"average,mean,math",1,averageNumbers
+Internal method designed to average numbers.,"Array items, Function fn",Object,CacheService,"average,mean,math",2,averageNumbers
+Service layer function to average numbers.,"float value1, float value2",String,Formatter,"average,mean,math",2,averageNumbers
+Utility function used to average numbers.,"int a, int b",Array,AudioProcessor,"average,mean,math",2,averageNumbers
+Implements logic to average numbers.,String text,void,CryptoUtils,"average,mean,math",1,averageNumbers
+Core routine responsible for average numbers.,"String source, String destination",HttpResponse,JsonUtils,"average,mean,math",2,averageNumbers
+Service layer function to average numbers.,"int a, int b",int,DataUtils,"average,mean,math",2,averageNumbers
+Adds functionality to average numbers.,"String source, String destination",Object,Validator,"average,mean,math",2,averageNumbers
+Service layer function to calculatePercentage.,Object data,Array,Formatter,"percentage,ratio,math",1,calculatePercentage
+API endpoint helper to calculatePercentage.,String path,HttpResponse,HttpClient,"percentage,ratio,math",1,calculatePercentage
+Utility function used to calculatePercentage.,String path,Object,DateUtils,"percentage,ratio,math",1,calculatePercentage
+Core routine responsible for calculatePercentage.,"float value1, float value2",Object,CollectionUtils,"percentage,ratio,math",2,calculatePercentage
+Internal method designed to calculatePercentage.,"Array items, Function fn",Array,Formatter,"percentage,ratio,math",2,calculatePercentage
+Utility function used to calculatePercentage.,"Array items, Function fn",HttpResponse,PathUtils,"percentage,ratio,math",2,calculatePercentage
+API endpoint helper to calculatePercentage.,"Array items, Function fn",Object,NetworkService,"percentage,ratio,math",2,calculatePercentage
+Service layer function to calculatePercentage.,Object data,void,ArrayUtils,"percentage,ratio,math",1,calculatePercentage
+Service layer function to calculatePercentage.,"String source, String destination",HttpResponse,NetworkService,"percentage,ratio,math",2,calculatePercentage
+Helper method that can calculatePercentage.,String url,void,MathUtils,"percentage,ratio,math",1,calculatePercentage
+Core routine responsible for calculatePercentage.,String path,String,SystemUtils,"percentage,ratio,math",1,calculatePercentage
+Core routine responsible for calculatePercentage.,Array items,void,AuthService,"percentage,ratio,math",1,calculatePercentage
+Helper method that can maxValue.,Object data,float,NetworkService,"max,largest,compare",1,maxValue
+API endpoint helper to maxValue.,Array items,void,AudioProcessor,"max,largest,compare",1,maxValue
+Performs operation to maxValue.,"float value1, float value2",Object,Parser,"max,largest,compare",2,maxValue
+Provides capability to maxValue.,"String source, String destination",Array,DatabaseService,"max,largest,compare",2,maxValue
+Performs operation to maxValue.,String input,Object,PathUtils,"max,largest,compare",1,maxValue
+API endpoint helper to maxValue.,"Array items, Function fn",Array,AuthService,"max,largest,compare",2,maxValue
+Performs operation to maxValue.,String text,Array,StringUtils,"max,largest,compare",1,maxValue
+Utility function used to maxValue.,"Array items, Function fn",Object,JsonUtils,"max,largest,compare",2,maxValue
+Implements logic to maxValue.,String text,void,JsonUtils,"max,largest,compare",1,maxValue
+Implements logic to maxValue.,Object data,Array,ConfigService,"max,largest,compare",1,maxValue
+Service layer function to maxValue.,String url,void,Validator,"max,largest,compare",1,maxValue
+Implements logic to maxValue.,"String source, String destination",Array,SystemUtils,"max,largest,compare",2,maxValue
+Performs operation to minValue.,"float value1, float value2",Object,ImageProcessor,"min,smallest,compare",2,minValue
+API endpoint helper to minValue.,"float value1, float value2",int,Logger,"min,smallest,compare",2,minValue
+API endpoint helper to minValue.,"String source, String destination",HttpResponse,ArrayUtils,"min,smallest,compare",2,minValue
+Implements logic to minValue.,Array items,int,StringUtils,"min,smallest,compare",1,minValue
+Core routine responsible for minValue.,Object data,String,DateUtils,"min,smallest,compare",1,minValue
+API endpoint helper to minValue.,String url,HttpResponse,SecurityUtils,"min,smallest,compare",1,minValue
+Helper method that can minValue.,String input,int,SecurityUtils,"min,smallest,compare",1,minValue
+Adds functionality to minValue.,"String source, String destination",int,FileUtils,"min,smallest,compare",2,minValue
+Implements logic to minValue.,"Array items, Function fn",Array,StringUtils,"min,smallest,compare",2,minValue
+Internal method designed to minValue.,String input,float,DateUtils,"min,smallest,compare",1,minValue
+Implements logic to minValue.,"float value1, float value2",void,ImageProcessor,"min,smallest,compare",2,minValue
+Helper method that can minValue.,"float value1, float value2",bool,StringUtils,"min,smallest,compare",2,minValue
+Performs operation to sum array.,String text,Array,Logger,"sum,array,math",1,sumArray
+Adds functionality to sum array.,String url,float,MathUtils,"sum,array,math",1,sumArray
+Utility function used to sum array.,"int a, int b",int,CompressionUtils,"sum,array,math",2,sumArray
+Adds functionality to sum array.,String url,String,SystemUtils,"sum,array,math",1,sumArray
+Performs operation to sum array.,"Array items, Function fn",Object,Logger,"sum,array,math",2,sumArray
+Core routine responsible for sum array.,String url,float,CryptoUtils,"sum,array,math",1,sumArray
+Utility function used to sum array.,String path,Object,NetworkService,"sum,array,math",1,sumArray
+API endpoint helper to sum array.,"String source, String destination",void,Validator,"sum,array,math",2,sumArray
+API endpoint helper to sum array.,Array items,Array,DataUtils,"sum,array,math",1,sumArray
+Core routine responsible for sum array.,String input,Array,DatabaseService,"sum,array,math",1,sumArray
+Adds functionality to sum array.,String text,int,CryptoUtils,"sum,array,math",1,sumArray
+Implements logic to sum array.,String text,void,DateUtils,"sum,array,math",1,sumArray
+API endpoint helper to normalizeValue.,Array items,String,PathUtils,"normalize,scale,math",1,normalizeValue
+Core routine responsible for normalizeValue.,Object data,String,SecurityUtils,"normalize,scale,math",1,normalizeValue
+Service layer function to normalizeValue.,"float value1, float value2",void,CollectionUtils,"normalize,scale,math",2,normalizeValue
+API endpoint helper to normalizeValue.,"String source, String destination",String,FileUtils,"normalize,scale,math",2,normalizeValue
+Internal method designed to normalizeValue.,"float value1, float value2",Array,Validator,"normalize,scale,math",2,normalizeValue
+Helper method that can normalizeValue.,String url,void,StringUtils,"normalize,scale,math",1,normalizeValue
+Performs operation to normalizeValue.,"Array items, Function fn",Object,Logger,"normalize,scale,math",2,normalizeValue
+Implements logic to normalizeValue.,String url,Object,DataUtils,"normalize,scale,math",1,normalizeValue
+Adds functionality to normalizeValue.,"String source, String destination",int,AudioProcessor,"normalize,scale,math",2,normalizeValue
+Implements logic to normalizeValue.,String text,String,MathUtils,"normalize,scale,math",1,normalizeValue
+Core routine responsible for normalizeValue.,"Array items, Function fn",bool,Logger,"normalize,scale,math",2,normalizeValue
+Implements logic to normalizeValue.,Array items,HttpResponse,DateUtils,"normalize,scale,math",1,normalizeValue
+Internal method designed to calculateVariance.,"String source, String destination",String,CacheService,"variance,statistics,math",2,calculateVariance
+Performs operation to calculateVariance.,"float value1, float value2",Object,DataUtils,"variance,statistics,math",2,calculateVariance
+Implements logic to calculateVariance.,Object data,Object,StringUtils,"variance,statistics,math",1,calculateVariance
+Adds functionality to calculateVariance.,"String source, String destination",Object,DatabaseService,"variance,statistics,math",2,calculateVariance
+Helper method that can calculateVariance.,String input,void,PathUtils,"variance,statistics,math",1,calculateVariance
+Service layer function to calculateVariance.,"String source, String destination",Array,JsonUtils,"variance,statistics,math",2,calculateVariance
+Core routine responsible for calculateVariance.,String text,Object,ConfigService,"variance,statistics,math",1,calculateVariance
+Performs operation to calculateVariance.,String path,float,Logger,"variance,statistics,math",1,calculateVariance
+Internal method designed to calculateVariance.,Object data,int,Validator,"variance,statistics,math",1,calculateVariance
+API endpoint helper to calculateVariance.,String url,float,SystemUtils,"variance,statistics,math",1,calculateVariance
+Internal method designed to calculateVariance.,"Array items, Function fn",HttpResponse,ImageProcessor,"variance,statistics,math",2,calculateVariance
+Service layer function to calculateVariance.,"int a, int b",HttpResponse,AudioProcessor,"variance,statistics,math",2,calculateVariance
+Implements logic to calculateStdDev.,String url,String,ArrayUtils,"stddev,statistics,math",1,calculateStdDev
+Performs operation to calculateStdDev.,String text,float,AudioProcessor,"stddev,statistics,math",1,calculateStdDev
+Core routine responsible for calculateStdDev.,Object data,float,SecurityUtils,"stddev,statistics,math",1,calculateStdDev
+Core routine responsible for calculateStdDev.,"int a, int b",HttpResponse,ImageProcessor,"stddev,statistics,math",2,calculateStdDev
+Helper method that can calculateStdDev.,"int a, int b",Array,ArrayUtils,"stddev,statistics,math",2,calculateStdDev
+Performs operation to calculateStdDev.,"float value1, float value2",String,SecurityUtils,"stddev,statistics,math",2,calculateStdDev
+API endpoint helper to calculateStdDev.,String url,float,SecurityUtils,"stddev,statistics,math",1,calculateStdDev
+API endpoint helper to calculateStdDev.,Object data,Array,SystemUtils,"stddev,statistics,math",1,calculateStdDev
+API endpoint helper to calculateStdDev.,String path,float,HttpClient,"stddev,statistics,math",1,calculateStdDev
+Internal method designed to calculateStdDev.,"String source, String destination",HttpResponse,Parser,"stddev,statistics,math",2,calculateStdDev
+Performs operation to calculateStdDev.,"String source, String destination",Array,CollectionUtils,"stddev,statistics,math",2,calculateStdDev
+Implements logic to calculateStdDev.,String input,Object,ImageProcessor,"stddev,statistics,math",1,calculateStdDev
+Service layer function to concat strings.,String url,int,CollectionUtils,"concat,join,string",1,concatStrings
+Service layer function to concat strings.,String url,Object,CryptoUtils,"concat,join,string",1,concatStrings
+Utility function used to concat strings.,String path,Array,DataUtils,"concat,join,string",1,concatStrings
+Core routine responsible for concat strings.,String text,String,JsonUtils,"concat,join,string",1,concatStrings
+Provides capability to concat strings.,String path,Object,CompressionUtils,"concat,join,string",1,concatStrings
+Implements logic to concat strings.,"float value1, float value2",int,HttpClient,"concat,join,string",2,concatStrings
+Internal method designed to concat strings.,String text,int,HttpClient,"concat,join,string",1,concatStrings
+Performs operation to concat strings.,String url,float,DatabaseService,"concat,join,string",1,concatStrings
+Core routine responsible for concat strings.,"float value1, float value2",String,SecurityUtils,"concat,join,string",2,concatStrings
+Performs operation to concat strings.,Object data,Object,CacheService,"concat,join,string",1,concatStrings
+Core routine responsible for concat strings.,String text,float,Parser,"concat,join,string",1,concatStrings
+Implements logic to concat strings.,String url,Object,JsonUtils,"concat,join,string",1,concatStrings
+Core routine responsible for split string.,"float value1, float value2",float,AuthService,"split,tokenize,string",2,splitString
+Helper method that can split string.,Object data,String,AuthService,"split,tokenize,string",1,splitString
+Helper method that can split string.,"String source, String destination",bool,DatabaseService,"split,tokenize,string",2,splitString
+Service layer function to split string.,String input,Object,NetworkService,"split,tokenize,string",1,splitString
+Service layer function to split string.,String url,bool,SystemUtils,"split,tokenize,string",1,splitString
+Service layer function to split string.,String path,HttpResponse,PathUtils,"split,tokenize,string",1,splitString
+Service layer function to split string.,Array items,int,CacheService,"split,tokenize,string",1,splitString
+API endpoint helper to split string.,"float value1, float value2",String,DataUtils,"split,tokenize,string",2,splitString
+Helper method that can split string.,String url,Array,ArrayUtils,"split,tokenize,string",1,splitString
+Performs operation to split string.,String url,HttpResponse,Parser,"split,tokenize,string",1,splitString
+API endpoint helper to split string.,"String source, String destination",int,SystemUtils,"split,tokenize,string",2,splitString
+Service layer function to split string.,"float value1, float value2",int,Validator,"split,tokenize,string",2,splitString
+Provides capability to trimWhitespace.,String text,float,NetworkService,"trim,whitespace,string",1,trimWhitespace
+Internal method designed to trimWhitespace.,Object data,Object,Formatter,"trim,whitespace,string",1,trimWhitespace
+Helper method that can trimWhitespace.,"int a, int b",Array,Parser,"trim,whitespace,string",2,trimWhitespace
+Service layer function to trimWhitespace.,Array items,int,DatabaseService,"trim,whitespace,string",1,trimWhitespace
+API endpoint helper to trimWhitespace.,"int a, int b",Object,ConfigService,"trim,whitespace,string",2,trimWhitespace
+Provides capability to trimWhitespace.,Object data,void,Formatter,"trim,whitespace,string",1,trimWhitespace
+Provides capability to trimWhitespace.,"int a, int b",int,DatabaseService,"trim,whitespace,string",2,trimWhitespace
+Service layer function to trimWhitespace.,Array items,String,CacheService,"trim,whitespace,string",1,trimWhitespace
+Utility function used to trimWhitespace.,String text,HttpResponse,CompressionUtils,"trim,whitespace,string",1,trimWhitespace
+Adds functionality to trimWhitespace.,Array items,String,CollectionUtils,"trim,whitespace,string",1,trimWhitespace
+Utility function used to trimWhitespace.,"float value1, float value2",Array,ImageProcessor,"trim,whitespace,string",2,trimWhitespace
+Utility function used to trimWhitespace.,String url,HttpResponse,DataUtils,"trim,whitespace,string",1,trimWhitespace
+Core routine responsible for replaceSubstring.,"String source, String destination",String,SystemUtils,"replace,substring,string",2,replaceSubstring
+Internal method designed to replaceSubstring.,"Array items, Function fn",Object,ImageProcessor,"replace,substring,string",2,replaceSubstring
+Performs operation to replaceSubstring.,"String source, String destination",bool,Formatter,"replace,substring,string",2,replaceSubstring
+Internal method designed to replaceSubstring.,Object data,int,DatabaseService,"replace,substring,string",1,replaceSubstring
+Helper method that can replaceSubstring.,"String source, String destination",Object,DateUtils,"replace,substring,string",2,replaceSubstring
+API endpoint helper to replaceSubstring.,"Array items, Function fn",int,FileUtils,"replace,substring,string",2,replaceSubstring
+Adds functionality to replaceSubstring.,String text,String,FileUtils,"replace,substring,string",1,replaceSubstring
+Adds functionality to replaceSubstring.,String path,void,CollectionUtils,"replace,substring,string",1,replaceSubstring
+Implements logic to replaceSubstring.,Array items,HttpResponse,SystemUtils,"replace,substring,string",1,replaceSubstring
+API endpoint helper to replaceSubstring.,"float value1, float value2",int,MathUtils,"replace,substring,string",2,replaceSubstring
+Adds functionality to replaceSubstring.,Object data,Object,DataUtils,"replace,substring,string",1,replaceSubstring
+Adds functionality to replaceSubstring.,Object data,void,Validator,"replace,substring,string",1,replaceSubstring
+Helper method that can substringExtract.,"int a, int b",String,Parser,"substring,extract,string",2,substringExtract
+Provides capability to substringExtract.,"String source, String destination",float,Validator,"substring,extract,string",2,substringExtract
+Provides capability to substringExtract.,String text,void,FileUtils,"substring,extract,string",1,substringExtract
+Utility function used to substringExtract.,"String source, String destination",void,FileUtils,"substring,extract,string",2,substringExtract
+API endpoint helper to substringExtract.,String text,Array,AuthService,"substring,extract,string",1,substringExtract
+Utility function used to substringExtract.,Object data,String,StringUtils,"substring,extract,string",1,substringExtract
+Helper method that can substringExtract.,String path,HttpResponse,DateUtils,"substring,extract,string",1,substringExtract
+Implements logic to substringExtract.,"float value1, float value2",bool,AudioProcessor,"substring,extract,string",2,substringExtract
+Core routine responsible for substringExtract.,"String source, String destination",String,Logger,"substring,extract,string",2,substringExtract
+Utility function used to substringExtract.,"int a, int b",void,MathUtils,"substring,extract,string",2,substringExtract
+Internal method designed to substringExtract.,Array items,Array,MathUtils,"substring,extract,string",1,substringExtract
+Service layer function to substringExtract.,String url,Array,AudioProcessor,"substring,extract,string",1,substringExtract
+Provides capability to toUpperCase.,"Array items, Function fn",Object,JsonUtils,"uppercase,string,format",2,toUpperCase
+Adds functionality to toUpperCase.,String text,void,StringUtils,"uppercase,string,format",1,toUpperCase
+Core routine responsible for toUpperCase.,"Array items, Function fn",bool,CollectionUtils,"uppercase,string,format",2,toUpperCase
+Utility function used to toUpperCase.,Object data,Object,AudioProcessor,"uppercase,string,format",1,toUpperCase
+Utility function used to toUpperCase.,String path,HttpResponse,Logger,"uppercase,string,format",1,toUpperCase
+Utility function used to toUpperCase.,Object data,void,HttpClient,"uppercase,string,format",1,toUpperCase
+Performs operation to toUpperCase.,String path,HttpResponse,HttpClient,"uppercase,string,format",1,toUpperCase
+Internal method designed to toUpperCase.,"int a, int b",Array,JsonUtils,"uppercase,string,format",2,toUpperCase
+API endpoint helper to toUpperCase.,String url,HttpResponse,StringUtils,"uppercase,string,format",1,toUpperCase
+Service layer function to toUpperCase.,"int a, int b",HttpResponse,SecurityUtils,"uppercase,string,format",2,toUpperCase
+Performs operation to toUpperCase.,Array items,String,CryptoUtils,"uppercase,string,format",1,toUpperCase
+Performs operation to toUpperCase.,Array items,bool,Logger,"uppercase,string,format",1,toUpperCase
+Implements logic to toLowerCase.,String input,String,Validator,"lowercase,string,format",1,toLowerCase
+Performs operation to toLowerCase.,String url,void,CollectionUtils,"lowercase,string,format",1,toLowerCase
+Performs operation to toLowerCase.,String text,void,CacheService,"lowercase,string,format",1,toLowerCase
+Internal method designed to toLowerCase.,Array items,bool,JsonUtils,"lowercase,string,format",1,toLowerCase
+Core routine responsible for toLowerCase.,String input,float,AudioProcessor,"lowercase,string,format",1,toLowerCase
+Provides capability to toLowerCase.,String path,HttpResponse,Validator,"lowercase,string,format",1,toLowerCase
+Implements logic to toLowerCase.,"int a, int b",String,CompressionUtils,"lowercase,string,format",2,toLowerCase
+Utility function used to toLowerCase.,String input,int,MathUtils,"lowercase,string,format",1,toLowerCase
+API endpoint helper to toLowerCase.,"Array items, Function fn",Array,ArrayUtils,"lowercase,string,format",2,toLowerCase
+Provides capability to toLowerCase.,String input,String,ConfigService,"lowercase,string,format",1,toLowerCase
+Core routine responsible for toLowerCase.,String input,String,AudioProcessor,"lowercase,string,format",1,toLowerCase
+Service layer function to toLowerCase.,String url,Array,Formatter,"lowercase,string,format",1,toLowerCase
+Internal method designed to stringContains.,String path,HttpResponse,Validator,"contains,search,string",1,stringContains
+Internal method designed to stringContains.,String text,int,PathUtils,"contains,search,string",1,stringContains
+Implements logic to stringContains.,Object data,HttpResponse,CryptoUtils,"contains,search,string",1,stringContains
+Service layer function to stringContains.,"Array items, Function fn",int,CryptoUtils,"contains,search,string",2,stringContains
+API endpoint helper to stringContains.,"Array items, Function fn",float,StringUtils,"contains,search,string",2,stringContains
+Adds functionality to stringContains.,"int a, int b",HttpResponse,CollectionUtils,"contains,search,string",2,stringContains
+Provides capability to stringContains.,String input,bool,Formatter,"contains,search,string",1,stringContains
+Helper method that can stringContains.,"float value1, float value2",Array,ArrayUtils,"contains,search,string",2,stringContains
+Core routine responsible for stringContains.,"String source, String destination",int,StringUtils,"contains,search,string",2,stringContains
+Helper method that can stringContains.,String path,int,HttpClient,"contains,search,string",1,stringContains
+Implements logic to stringContains.,String path,String,CryptoUtils,"contains,search,string",1,stringContains
+Utility function used to stringContains.,String url,HttpResponse,Parser,"contains,search,string",1,stringContains
+Core routine responsible for startsWithPrefix.,Object data,Object,JsonUtils,"startswith,prefix,string",1,startsWithPrefix
+Core routine responsible for startsWithPrefix.,Object data,String,Parser,"startswith,prefix,string",1,startsWithPrefix
+Provides capability to startsWithPrefix.,String input,float,Parser,"startswith,prefix,string",1,startsWithPrefix
+Performs operation to startsWithPrefix.,Object data,int,CacheService,"startswith,prefix,string",1,startsWithPrefix
+Helper method that can startsWithPrefix.,"int a, int b",Array,AuthService,"startswith,prefix,string",2,startsWithPrefix
+Adds functionality to startsWithPrefix.,String path,bool,CompressionUtils,"startswith,prefix,string",1,startsWithPrefix
+Service layer function to startsWithPrefix.,"float value1, float value2",Array,Parser,"startswith,prefix,string",2,startsWithPrefix
+Internal method designed to startsWithPrefix.,"int a, int b",int,CacheService,"startswith,prefix,string",2,startsWithPrefix
+Internal method designed to startsWithPrefix.,String text,int,ArrayUtils,"startswith,prefix,string",1,startsWithPrefix
+Helper method that can startsWithPrefix.,String text,int,HttpClient,"startswith,prefix,string",1,startsWithPrefix
+Helper method that can startsWithPrefix.,String input,float,Validator,"startswith,prefix,string",1,startsWithPrefix
+Service layer function to startsWithPrefix.,Object data,HttpResponse,SystemUtils,"startswith,prefix,string",1,startsWithPrefix
+Core routine responsible for endsWithSuffix.,Array items,Object,NetworkService,"endswith,suffix,string",1,endsWithSuffix
+Adds functionality to endsWithSuffix.,String path,Object,ConfigService,"endswith,suffix,string",1,endsWithSuffix
+Internal method designed to endsWithSuffix.,String path,Array,ArrayUtils,"endswith,suffix,string",1,endsWithSuffix
+Adds functionality to endsWithSuffix.,String input,String,DateUtils,"endswith,suffix,string",1,endsWithSuffix
+Implements logic to endsWithSuffix.,"int a, int b",Array,FileUtils,"endswith,suffix,string",2,endsWithSuffix
+API endpoint helper to endsWithSuffix.,String input,bool,DatabaseService,"endswith,suffix,string",1,endsWithSuffix
+Core routine responsible for endsWithSuffix.,"float value1, float value2",int,AudioProcessor,"endswith,suffix,string",2,endsWithSuffix
+Utility function used to endsWithSuffix.,String input,String,Formatter,"endswith,suffix,string",1,endsWithSuffix
+Utility function used to endsWithSuffix.,Array items,int,Formatter,"endswith,suffix,string",1,endsWithSuffix
+Performs operation to endsWithSuffix.,String path,String,ConfigService,"endswith,suffix,string",1,endsWithSuffix
+Helper method that can endsWithSuffix.,"int a, int b",Array,Validator,"endswith,suffix,string",2,endsWithSuffix
+Helper method that can endsWithSuffix.,Object data,void,JsonUtils,"endswith,suffix,string",1,endsWithSuffix
+Adds functionality to reverse string.,String text,Object,SecurityUtils,"reverse,string,characters",1,reverseString
+Helper method that can reverse string.,String text,String,PathUtils,"reverse,string,characters",1,reverseString
+Adds functionality to reverse string.,"String source, String destination",String,Validator,"reverse,string,characters",2,reverseString
+Performs operation to reverse string.,"int a, int b",Object,AuthService,"reverse,string,characters",2,reverseString
+API endpoint helper to reverse string.,Array items,HttpResponse,AudioProcessor,"reverse,string,characters",1,reverseString
+Utility function used to reverse string.,"String source, String destination",void,Logger,"reverse,string,characters",2,reverseString
+API endpoint helper to reverse string.,"float value1, float value2",Array,CryptoUtils,"reverse,string,characters",2,reverseString
+Performs operation to reverse string.,"String source, String destination",String,Logger,"reverse,string,characters",2,reverseString
+Adds functionality to reverse string.,String url,void,Parser,"reverse,string,characters",1,reverseString
+Performs operation to reverse string.,String url,float,AudioProcessor,"reverse,string,characters",1,reverseString
+API endpoint helper to reverse string.,"Array items, Function fn",String,ConfigService,"reverse,string,characters",2,reverseString
+Internal method designed to reverse string.,String input,void,ArrayUtils,"reverse,string,characters",1,reverseString
+Implements logic to stringLength.,String input,void,CompressionUtils,"length,size,string",1,stringLength
+Performs operation to stringLength.,String text,void,CacheService,"length,size,string",1,stringLength
+Utility function used to stringLength.,Array items,void,HttpClient,"length,size,string",1,stringLength
+API endpoint helper to stringLength.,"float value1, float value2",int,Validator,"length,size,string",2,stringLength
+API endpoint helper to stringLength.,Object data,bool,CollectionUtils,"length,size,string",1,stringLength
+Utility function used to stringLength.,Object data,String,Parser,"length,size,string",1,stringLength
+Utility function used to stringLength.,String url,bool,Validator,"length,size,string",1,stringLength
+Service layer function to stringLength.,"String source, String destination",bool,HttpClient,"length,size,string",2,stringLength
+Adds functionality to stringLength.,Array items,String,FileUtils,"length,size,string",1,stringLength
+Helper method that can stringLength.,Object data,void,AudioProcessor,"length,size,string",1,stringLength
+Adds functionality to stringLength.,Object data,HttpResponse,DatabaseService,"length,size,string",1,stringLength
+Implements logic to stringLength.,"float value1, float value2",bool,PathUtils,"length,size,string",2,stringLength
+Performs operation to removeSpecialChars.,String text,String,MathUtils,"sanitize,string,filter",1,removeSpecialChars
+Implements logic to removeSpecialChars.,String input,Object,Validator,"sanitize,string,filter",1,removeSpecialChars
+Adds functionality to removeSpecialChars.,String text,Array,NetworkService,"sanitize,string,filter",1,removeSpecialChars
+Internal method designed to removeSpecialChars.,String input,Object,CompressionUtils,"sanitize,string,filter",1,removeSpecialChars
+Adds functionality to removeSpecialChars.,"String source, String destination",float,CompressionUtils,"sanitize,string,filter",2,removeSpecialChars
+Performs operation to removeSpecialChars.,String input,bool,DatabaseService,"sanitize,string,filter",1,removeSpecialChars
+Core routine responsible for removeSpecialChars.,Object data,Array,SecurityUtils,"sanitize,string,filter",1,removeSpecialChars
+Adds functionality to removeSpecialChars.,String input,bool,ArrayUtils,"sanitize,string,filter",1,removeSpecialChars
+Provides capability to removeSpecialChars.,String text,HttpResponse,Validator,"sanitize,string,filter",1,removeSpecialChars
+Utility function used to removeSpecialChars.,String input,String,DateUtils,"sanitize,string,filter",1,removeSpecialChars
+Service layer function to removeSpecialChars.,"Array items, Function fn",HttpResponse,CryptoUtils,"sanitize,string,filter",2,removeSpecialChars
+Implements logic to removeSpecialChars.,"String source, String destination",HttpResponse,CollectionUtils,"sanitize,string,filter",2,removeSpecialChars
+Implements logic to formatTemplate.,"int a, int b",float,FileUtils,"template,format,string",2,formatTemplate
+API endpoint helper to formatTemplate.,"float value1, float value2",String,Parser,"template,format,string",2,formatTemplate
+Performs operation to formatTemplate.,String path,Array,SystemUtils,"template,format,string",1,formatTemplate
+Performs operation to formatTemplate.,String url,String,NetworkService,"template,format,string",1,formatTemplate
+Adds functionality to formatTemplate.,Array items,String,Parser,"template,format,string",1,formatTemplate
+Service layer function to formatTemplate.,Array items,Array,Logger,"template,format,string",1,formatTemplate
+Helper method that can formatTemplate.,String url,bool,StringUtils,"template,format,string",1,formatTemplate
+Service layer function to formatTemplate.,Array items,int,MathUtils,"template,format,string",1,formatTemplate
+Adds functionality to formatTemplate.,"int a, int b",void,Logger,"template,format,string",2,formatTemplate
+Implements logic to formatTemplate.,"String source, String destination",Array,ImageProcessor,"template,format,string",2,formatTemplate
+Helper method that can formatTemplate.,"String source, String destination",void,CryptoUtils,"template,format,string",2,formatTemplate
+Adds functionality to formatTemplate.,Object data,bool,DataUtils,"template,format,string",1,formatTemplate
+Adds functionality to stringSimilarity.,Array items,int,CompressionUtils,"similarity,compare,string",1,stringSimilarity
+Implements logic to stringSimilarity.,String input,int,MathUtils,"similarity,compare,string",1,stringSimilarity
+Service layer function to stringSimilarity.,"int a, int b",float,CompressionUtils,"similarity,compare,string",2,stringSimilarity
+Helper method that can stringSimilarity.,String path,int,StringUtils,"similarity,compare,string",1,stringSimilarity
+Internal method designed to stringSimilarity.,String input,int,DateUtils,"similarity,compare,string",1,stringSimilarity
+Core routine responsible for stringSimilarity.,"int a, int b",void,MathUtils,"similarity,compare,string",2,stringSimilarity
+Provides capability to stringSimilarity.,"String source, String destination",float,MathUtils,"similarity,compare,string",2,stringSimilarity
+Internal method designed to stringSimilarity.,String path,float,ArrayUtils,"similarity,compare,string",1,stringSimilarity
+Provides capability to stringSimilarity.,Object data,String,AuthService,"similarity,compare,string",1,stringSimilarity
+Service layer function to stringSimilarity.,"int a, int b",Object,DataUtils,"similarity,compare,string",2,stringSimilarity
+Core routine responsible for stringSimilarity.,"String source, String destination",int,DataUtils,"similarity,compare,string",2,stringSimilarity
+Provides capability to stringSimilarity.,"int a, int b",bool,ImageProcessor,"similarity,compare,string",2,stringSimilarity
+Utility function used to slugifyText.,String text,Array,CollectionUtils,"slug,url,string",1,slugifyText
+Adds functionality to slugifyText.,String input,void,CryptoUtils,"slug,url,string",1,slugifyText
+Utility function used to slugifyText.,String input,int,CompressionUtils,"slug,url,string",1,slugifyText
+Service layer function to slugifyText.,"Array items, Function fn",String,Logger,"slug,url,string",2,slugifyText
+Implements logic to slugifyText.,String text,HttpResponse,JsonUtils,"slug,url,string",1,slugifyText
+Internal method designed to slugifyText.,"float value1, float value2",void,NetworkService,"slug,url,string",2,slugifyText
+Provides capability to slugifyText.,"int a, int b",void,JsonUtils,"slug,url,string",2,slugifyText
+Internal method designed to slugifyText.,String text,HttpResponse,Formatter,"slug,url,string",1,slugifyText
+Helper method that can slugifyText.,"Array items, Function fn",Object,DatabaseService,"slug,url,string",2,slugifyText
+Performs operation to slugifyText.,Object data,String,ArrayUtils,"slug,url,string",1,slugifyText
+Performs operation to slugifyText.,"int a, int b",float,JsonUtils,"slug,url,string",2,slugifyText
+API endpoint helper to slugifyText.,String text,bool,Parser,"slug,url,string",1,slugifyText
+Helper method that can capitalizeWords.,String text,Array,AuthService,"capitalize,string,format",1,capitalizeWords
+Utility function used to capitalizeWords.,"float value1, float value2",Object,DatabaseService,"capitalize,string,format",2,capitalizeWords
+Core routine responsible for capitalizeWords.,String url,String,AudioProcessor,"capitalize,string,format",1,capitalizeWords
+Service layer function to capitalizeWords.,String path,int,NetworkService,"capitalize,string,format",1,capitalizeWords
+Provides capability to capitalizeWords.,"int a, int b",String,CryptoUtils,"capitalize,string,format",2,capitalizeWords
+API endpoint helper to capitalizeWords.,String text,HttpResponse,SecurityUtils,"capitalize,string,format",1,capitalizeWords
+Internal method designed to capitalizeWords.,"String source, String destination",String,PathUtils,"capitalize,string,format",2,capitalizeWords
+Service layer function to capitalizeWords.,Array items,float,Parser,"capitalize,string,format",1,capitalizeWords
+Internal method designed to capitalizeWords.,"Array items, Function fn",float,Formatter,"capitalize,string,format",2,capitalizeWords
+Helper method that can capitalizeWords.,String path,void,CollectionUtils,"capitalize,string,format",1,capitalizeWords
+API endpoint helper to capitalizeWords.,"Array items, Function fn",HttpResponse,ConfigService,"capitalize,string,format",2,capitalizeWords
+Service layer function to capitalizeWords.,String input,String,DatabaseService,"capitalize,string,format",1,capitalizeWords
+Helper method that can parseCsvLine.,"int a, int b",String,StringUtils,"csv,parse,string",2,parseCsvLine
+Performs operation to parseCsvLine.,"float value1, float value2",float,MathUtils,"csv,parse,string",2,parseCsvLine
+Utility function used to parseCsvLine.,String url,int,StringUtils,"csv,parse,string",1,parseCsvLine
+Core routine responsible for parseCsvLine.,"int a, int b",Object,ArrayUtils,"csv,parse,string",2,parseCsvLine
+Utility function used to parseCsvLine.,String text,Object,ImageProcessor,"csv,parse,string",1,parseCsvLine
+Provides capability to parseCsvLine.,String path,Array,HttpClient,"csv,parse,string",1,parseCsvLine
+Implements logic to parseCsvLine.,"Array items, Function fn",float,Logger,"csv,parse,string",2,parseCsvLine
+Helper method that can parseCsvLine.,"float value1, float value2",HttpResponse,PathUtils,"csv,parse,string",2,parseCsvLine
+Implements logic to parseCsvLine.,Object data,HttpResponse,DataUtils,"csv,parse,string",1,parseCsvLine
+Internal method designed to parseCsvLine.,Object data,void,ConfigService,"csv,parse,string",1,parseCsvLine
+Helper method that can parseCsvLine.,Array items,int,SystemUtils,"csv,parse,string",1,parseCsvLine
+Service layer function to parseCsvLine.,String input,HttpResponse,Logger,"csv,parse,string",1,parseCsvLine
+Adds functionality to sort array.,"float value1, float value2",void,DateUtils,"sort,array,order",2,sortArray
+Adds functionality to sort array.,"Array items, Function fn",HttpResponse,Parser,"sort,array,order",2,sortArray
+Utility function used to sort array.,String url,bool,FileUtils,"sort,array,order",1,sortArray
+Service layer function to sort array.,"int a, int b",Object,SecurityUtils,"sort,array,order",2,sortArray
+Internal method designed to sort array.,String input,Object,HttpClient,"sort,array,order",1,sortArray
+Service layer function to sort array.,"String source, String destination",Object,SystemUtils,"sort,array,order",2,sortArray
+Implements logic to sort array.,"String source, String destination",String,CompressionUtils,"sort,array,order",2,sortArray
+Implements logic to sort array.,String input,HttpResponse,FileUtils,"sort,array,order",1,sortArray
+Implements logic to sort array.,Array items,Array,CollectionUtils,"sort,array,order",1,sortArray
+Helper method that can sort array.,"String source, String destination",Object,Formatter,"sort,array,order",2,sortArray
+Core routine responsible for sort array.,String text,Object,DataUtils,"sort,array,order",1,sortArray
+Performs operation to sort array.,"String source, String destination",String,CryptoUtils,"sort,array,order",2,sortArray
+Helper method that can reverse array.,"float value1, float value2",Object,NetworkService,"reverse,array",2,reverseArray
+Implements logic to reverse array.,String input,bool,HttpClient,"reverse,array",1,reverseArray
+Service layer function to reverse array.,"int a, int b",String,ArrayUtils,"reverse,array",2,reverseArray
+Core routine responsible for reverse array.,"float value1, float value2",void,CompressionUtils,"reverse,array",2,reverseArray
+Implements logic to reverse array.,String path,Array,CollectionUtils,"reverse,array",1,reverseArray
+Implements logic to reverse array.,"int a, int b",float,Logger,"reverse,array",2,reverseArray
+Service layer function to reverse array.,String text,int,CollectionUtils,"reverse,array",1,reverseArray
+Core routine responsible for reverse array.,String text,String,HttpClient,"reverse,array",1,reverseArray
+Provides capability to reverse array.,String text,bool,NetworkService,"reverse,array",1,reverseArray
+Performs operation to reverse array.,String path,float,Formatter,"reverse,array",1,reverseArray
+Internal method designed to reverse array.,Array items,bool,CollectionUtils,"reverse,array",1,reverseArray
+Adds functionality to reverse array.,String url,bool,CollectionUtils,"reverse,array",1,reverseArray
+Performs operation to shuffle array.,"int a, int b",Array,Logger,"shuffle,array,random",2,shuffleArray
+API endpoint helper to shuffle array.,"float value1, float value2",Array,CryptoUtils,"shuffle,array,random",2,shuffleArray
+Helper method that can shuffle array.,String input,int,AuthService,"shuffle,array,random",1,shuffleArray
+Core routine responsible for shuffle array.,Array items,HttpResponse,HttpClient,"shuffle,array,random",1,shuffleArray
+Internal method designed to shuffle array.,String url,int,StringUtils,"shuffle,array,random",1,shuffleArray
+Provides capability to shuffle array.,"String source, String destination",Object,HttpClient,"shuffle,array,random",2,shuffleArray
+API endpoint helper to shuffle array.,String input,Array,Formatter,"shuffle,array,random",1,shuffleArray
+Utility function used to shuffle array.,String path,int,StringUtils,"shuffle,array,random",1,shuffleArray
+Performs operation to shuffle array.,Array items,void,CompressionUtils,"shuffle,array,random",1,shuffleArray
+Provides capability to shuffle array.,String url,float,JsonUtils,"shuffle,array,random",1,shuffleArray
+Service layer function to shuffle array.,"Array items, Function fn",Array,FileUtils,"shuffle,array,random",2,shuffleArray
+Performs operation to shuffle array.,String url,bool,SecurityUtils,"shuffle,array,random",1,shuffleArray
+Utility function used to filter array.,"float value1, float value2",int,Formatter,"filter,array,condition",2,filterArray
+Provides capability to filter array.,"String source, String destination",int,Parser,"filter,array,condition",2,filterArray
+Utility function used to filter array.,"String source, String destination",int,PathUtils,"filter,array,condition",2,filterArray
+Utility function used to filter array.,String text,HttpResponse,ImageProcessor,"filter,array,condition",1,filterArray
+Performs operation to filter array.,Object data,void,CompressionUtils,"filter,array,condition",1,filterArray
+Utility function used to filter array.,"float value1, float value2",Object,StringUtils,"filter,array,condition",2,filterArray
+Service layer function to filter array.,String text,bool,CompressionUtils,"filter,array,condition",1,filterArray
+Provides capability to filter array.,"int a, int b",void,CollectionUtils,"filter,array,condition",2,filterArray
+Adds functionality to filter array.,"int a, int b",HttpResponse,JsonUtils,"filter,array,condition",2,filterArray
+API endpoint helper to filter array.,Object data,String,CryptoUtils,"filter,array,condition",1,filterArray
+Adds functionality to filter array.,"int a, int b",void,Logger,"filter,array,condition",2,filterArray
+Internal method designed to filter array.,String url,Object,DataUtils,"filter,array,condition",1,filterArray
+Implements logic to map array.,Array items,int,Logger,"map,array,transform",1,mapArray
+Provides capability to map array.,String path,int,AuthService,"map,array,transform",1,mapArray
+Provides capability to map array.,"String source, String destination",int,DateUtils,"map,array,transform",2,mapArray
+API endpoint helper to map array.,Object data,float,NetworkService,"map,array,transform",1,mapArray
+API endpoint helper to map array.,String input,bool,StringUtils,"map,array,transform",1,mapArray
+API endpoint helper to map array.,String path,Array,CacheService,"map,array,transform",1,mapArray
+Provides capability to map array.,"String source, String destination",bool,NetworkService,"map,array,transform",2,mapArray
+API endpoint helper to map array.,String input,int,CryptoUtils,"map,array,transform",1,mapArray
+Utility function used to map array.,String text,String,AuthService,"map,array,transform",1,mapArray
+Utility function used to map array.,Array items,float,CryptoUtils,"map,array,transform",1,mapArray
+Helper method that can map array.,String path,Array,Parser,"map,array,transform",1,mapArray
+Implements logic to map array.,String text,HttpResponse,StringUtils,"map,array,transform",1,mapArray
+Utility function used to reduce array.,"Array items, Function fn",HttpResponse,ArrayUtils,"reduce,array,aggregate",2,reduceArray
+Core routine responsible for reduce array.,Object data,float,JsonUtils,"reduce,array,aggregate",1,reduceArray
+Implements logic to reduce array.,String input,int,SystemUtils,"reduce,array,aggregate",1,reduceArray
+Performs operation to reduce array.,"float value1, float value2",int,SystemUtils,"reduce,array,aggregate",2,reduceArray
+Provides capability to reduce array.,String url,float,AuthService,"reduce,array,aggregate",1,reduceArray
+Core routine responsible for reduce array.,String text,bool,DatabaseService,"reduce,array,aggregate",1,reduceArray
+Performs operation to reduce array.,"float value1, float value2",int,CompressionUtils,"reduce,array,aggregate",2,reduceArray
+Utility function used to reduce array.,String path,String,ImageProcessor,"reduce,array,aggregate",1,reduceArray
+Adds functionality to reduce array.,Array items,int,Validator,"reduce,array,aggregate",1,reduceArray
+API endpoint helper to reduce array.,String input,HttpResponse,AuthService,"reduce,array,aggregate",1,reduceArray
+Performs operation to reduce array.,"float value1, float value2",String,HttpClient,"reduce,array,aggregate",2,reduceArray
+Implements logic to reduce array.,"Array items, Function fn",int,HttpClient,"reduce,array,aggregate",2,reduceArray
+Utility function used to findElement.,String input,HttpResponse,JsonUtils,"find,array,search",1,findElement
+Implements logic to findElement.,Object data,Object,FileUtils,"find,array,search",1,findElement
+Internal method designed to findElement.,"Array items, Function fn",HttpResponse,ImageProcessor,"find,array,search",2,findElement
+Internal method designed to findElement.,Object data,float,MathUtils,"find,array,search",1,findElement
+Implements logic to findElement.,String input,float,AudioProcessor,"find,array,search",1,findElement
+Helper method that can findElement.,"Array items, Function fn",int,StringUtils,"find,array,search",2,findElement
+Core routine responsible for findElement.,String text,bool,AudioProcessor,"find,array,search",1,findElement
+Utility function used to findElement.,"float value1, float value2",void,CollectionUtils,"find,array,search",2,findElement
+Adds functionality to findElement.,"float value1, float value2",Array,AuthService,"find,array,search",2,findElement
+Helper method that can findElement.,"String source, String destination",bool,Logger,"find,array,search",2,findElement
+Core routine responsible for findElement.,String url,HttpResponse,StringUtils,"find,array,search",1,findElement
+Implements logic to findElement.,String text,Array,SecurityUtils,"find,array,search",1,findElement
+API endpoint helper to indexOfElement.,"String source, String destination",void,ArrayUtils,"index,search,array",2,indexOfElement
+Provides capability to indexOfElement.,String path,Array,MathUtils,"index,search,array",1,indexOfElement
+Core routine responsible for indexOfElement.,"int a, int b",String,Logger,"index,search,array",2,indexOfElement
+Implements logic to indexOfElement.,String input,void,ArrayUtils,"index,search,array",1,indexOfElement
+Adds functionality to indexOfElement.,"String source, String destination",int,DatabaseService,"index,search,array",2,indexOfElement
+Adds functionality to indexOfElement.,String url,Object,ArrayUtils,"index,search,array",1,indexOfElement
+Utility function used to indexOfElement.,"Array items, Function fn",HttpResponse,DateUtils,"index,search,array",2,indexOfElement
+Adds functionality to indexOfElement.,Object data,int,ConfigService,"index,search,array",1,indexOfElement
+Adds functionality to indexOfElement.,Array items,bool,Parser,"index,search,array",1,indexOfElement
+Utility function used to indexOfElement.,String input,String,MathUtils,"index,search,array",1,indexOfElement
+Core routine responsible for indexOfElement.,"String source, String destination",HttpResponse,Validator,"index,search,array",2,indexOfElement
+Provides capability to indexOfElement.,String url,Array,AuthService,"index,search,array",1,indexOfElement
+Utility function used to uniqueElements.,String path,float,AudioProcessor,"unique,deduplicate,array",1,uniqueElements
+Core routine responsible for uniqueElements.,String url,Object,Formatter,"unique,deduplicate,array",1,uniqueElements
+Helper method that can uniqueElements.,String url,Object,FileUtils,"unique,deduplicate,array",1,uniqueElements
+Service layer function to uniqueElements.,"Array items, Function fn",Object,ConfigService,"unique,deduplicate,array",2,uniqueElements
+Core routine responsible for uniqueElements.,"Array items, Function fn",String,AudioProcessor,"unique,deduplicate,array",2,uniqueElements
+Service layer function to uniqueElements.,Object data,String,PathUtils,"unique,deduplicate,array",1,uniqueElements
+Core routine responsible for uniqueElements.,String url,void,CryptoUtils,"unique,deduplicate,array",1,uniqueElements
+Performs operation to uniqueElements.,String text,HttpResponse,FileUtils,"unique,deduplicate,array",1,uniqueElements
+Helper method that can uniqueElements.,String url,void,PathUtils,"unique,deduplicate,array",1,uniqueElements
+Internal method designed to uniqueElements.,String text,int,MathUtils,"unique,deduplicate,array",1,uniqueElements
+Adds functionality to uniqueElements.,String text,float,Logger,"unique,deduplicate,array",1,uniqueElements
+Service layer function to uniqueElements.,"Array items, Function fn",float,Formatter,"unique,deduplicate,array",2,uniqueElements
+Implements logic to flatten array.,"int a, int b",String,ArrayUtils,"flatten,array,nested",2,flattenArray
+Provides capability to flatten array.,String path,HttpResponse,StringUtils,"flatten,array,nested",1,flattenArray
+Adds functionality to flatten array.,Object data,Object,ImageProcessor,"flatten,array,nested",1,flattenArray
+Internal method designed to flatten array.,Array items,int,ArrayUtils,"flatten,array,nested",1,flattenArray
+Core routine responsible for flatten array.,String url,void,DateUtils,"flatten,array,nested",1,flattenArray
+Implements logic to flatten array.,String text,float,AuthService,"flatten,array,nested",1,flattenArray
+Internal method designed to flatten array.,String text,HttpResponse,MathUtils,"flatten,array,nested",1,flattenArray
+Helper method that can flatten array.,String text,void,CollectionUtils,"flatten,array,nested",1,flattenArray
+Service layer function to flatten array.,String url,HttpResponse,ArrayUtils,"flatten,array,nested",1,flattenArray
+Helper method that can flatten array.,String path,bool,SystemUtils,"flatten,array,nested",1,flattenArray
+Adds functionality to flatten array.,"int a, int b",void,SystemUtils,"flatten,array,nested",2,flattenArray
+Helper method that can flatten array.,String text,float,DatabaseService,"flatten,array,nested",1,flattenArray
+Core routine responsible for chunk array.,"float value1, float value2",void,CompressionUtils,"chunk,split,array",2,chunkArray
+Utility function used to chunk array.,"Array items, Function fn",bool,CacheService,"chunk,split,array",2,chunkArray
+Helper method that can chunk array.,String input,HttpResponse,DataUtils,"chunk,split,array",1,chunkArray
+Helper method that can chunk array.,Object data,Array,ImageProcessor,"chunk,split,array",1,chunkArray
+API endpoint helper to chunk array.,Array items,float,Validator,"chunk,split,array",1,chunkArray
+Internal method designed to chunk array.,"float value1, float value2",bool,HttpClient,"chunk,split,array",2,chunkArray
+API endpoint helper to chunk array.,String text,String,NetworkService,"chunk,split,array",1,chunkArray
+Service layer function to chunk array.,"int a, int b",String,JsonUtils,"chunk,split,array",2,chunkArray
+Core routine responsible for chunk array.,Object data,String,StringUtils,"chunk,split,array",1,chunkArray
+Implements logic to chunk array.,Array items,bool,Logger,"chunk,split,array",1,chunkArray
+Provides capability to chunk array.,"int a, int b",int,FileUtils,"chunk,split,array",2,chunkArray
+Implements logic to chunk array.,String url,bool,ConfigService,"chunk,split,array",1,chunkArray
+Adds functionality to merge arrays.,Array items,String,Formatter,"merge,array,combine",1,mergeArrays
+Service layer function to merge arrays.,String path,float,DatabaseService,"merge,array,combine",1,mergeArrays
+Helper method that can merge arrays.,"Array items, Function fn",bool,CryptoUtils,"merge,array,combine",2,mergeArrays
+Provides capability to merge arrays.,String url,Object,DatabaseService,"merge,array,combine",1,mergeArrays
+API endpoint helper to merge arrays.,"int a, int b",bool,ArrayUtils,"merge,array,combine",2,mergeArrays
+Service layer function to merge arrays.,String input,HttpResponse,CryptoUtils,"merge,array,combine",1,mergeArrays
+Helper method that can merge arrays.,"String source, String destination",String,ImageProcessor,"merge,array,combine",2,mergeArrays
+API endpoint helper to merge arrays.,String text,Object,DateUtils,"merge,array,combine",1,mergeArrays
+Adds functionality to merge arrays.,String text,HttpResponse,CompressionUtils,"merge,array,combine",1,mergeArrays
+Adds functionality to merge arrays.,"float value1, float value2",void,CacheService,"merge,array,combine",2,mergeArrays
+Adds functionality to merge arrays.,String text,bool,AuthService,"merge,array,combine",1,mergeArrays
+Performs operation to merge arrays.,"String source, String destination",int,Formatter,"merge,array,combine",2,mergeArrays
+Internal method designed to arrayDifference.,String text,Array,DatabaseService,"difference,array,compare",1,arrayDifference
+Implements logic to arrayDifference.,String path,Object,AuthService,"difference,array,compare",1,arrayDifference
+Service layer function to arrayDifference.,String url,Object,Validator,"difference,array,compare",1,arrayDifference
+Adds functionality to arrayDifference.,String path,Array,ImageProcessor,"difference,array,compare",1,arrayDifference
+Performs operation to arrayDifference.,Array items,String,Validator,"difference,array,compare",1,arrayDifference
+Internal method designed to arrayDifference.,"Array items, Function fn",Array,FileUtils,"difference,array,compare",2,arrayDifference
+Service layer function to arrayDifference.,Object data,HttpResponse,AudioProcessor,"difference,array,compare",1,arrayDifference
+Adds functionality to arrayDifference.,"float value1, float value2",Array,ArrayUtils,"difference,array,compare",2,arrayDifference
+Service layer function to arrayDifference.,"float value1, float value2",void,FileUtils,"difference,array,compare",2,arrayDifference
+Implements logic to arrayDifference.,String text,float,StringUtils,"difference,array,compare",1,arrayDifference
+Internal method designed to arrayDifference.,String url,float,SystemUtils,"difference,array,compare",1,arrayDifference
+Internal method designed to arrayDifference.,Array items,HttpResponse,CacheService,"difference,array,compare",1,arrayDifference
+Internal method designed to arrayIntersection.,Object data,void,NetworkService,"intersection,array,set",1,arrayIntersection
+Internal method designed to arrayIntersection.,String text,void,Parser,"intersection,array,set",1,arrayIntersection
+API endpoint helper to arrayIntersection.,Object data,HttpResponse,CompressionUtils,"intersection,array,set",1,arrayIntersection
+API endpoint helper to arrayIntersection.,"int a, int b",Object,DateUtils,"intersection,array,set",2,arrayIntersection
+API endpoint helper to arrayIntersection.,String text,void,ArrayUtils,"intersection,array,set",1,arrayIntersection
+Adds functionality to arrayIntersection.,Array items,bool,DatabaseService,"intersection,array,set",1,arrayIntersection
+Performs operation to arrayIntersection.,Array items,String,Validator,"intersection,array,set",1,arrayIntersection
+Helper method that can arrayIntersection.,String path,Object,SecurityUtils,"intersection,array,set",1,arrayIntersection
+Helper method that can arrayIntersection.,"float value1, float value2",int,ImageProcessor,"intersection,array,set",2,arrayIntersection
+API endpoint helper to arrayIntersection.,"int a, int b",bool,Logger,"intersection,array,set",2,arrayIntersection
+Utility function used to arrayIntersection.,Array items,int,AudioProcessor,"intersection,array,set",1,arrayIntersection
+Provides capability to arrayIntersection.,Array items,Array,ImageProcessor,"intersection,array,set",1,arrayIntersection
+Utility function used to removeElement.,"int a, int b",Object,Formatter,"remove,array,delete",2,removeElement
+Internal method designed to removeElement.,String path,Array,SystemUtils,"remove,array,delete",1,removeElement
+Provides capability to removeElement.,"String source, String destination",float,AuthService,"remove,array,delete",2,removeElement
+Helper method that can removeElement.,String path,String,DateUtils,"remove,array,delete",1,removeElement
+Implements logic to removeElement.,"Array items, Function fn",Array,SystemUtils,"remove,array,delete",2,removeElement
+Internal method designed to removeElement.,String path,String,DatabaseService,"remove,array,delete",1,removeElement
+Provides capability to removeElement.,String path,int,SystemUtils,"remove,array,delete",1,removeElement
+Adds functionality to removeElement.,String path,float,CacheService,"remove,array,delete",1,removeElement
+Helper method that can removeElement.,"float value1, float value2",float,CacheService,"remove,array,delete",2,removeElement
+Helper method that can removeElement.,"int a, int b",float,AudioProcessor,"remove,array,delete",2,removeElement
+Core routine responsible for removeElement.,"String source, String destination",int,DateUtils,"remove,array,delete",2,removeElement
+Service layer function to removeElement.,"String source, String destination",bool,NetworkService,"remove,array,delete",2,removeElement
+API endpoint helper to arraySum.,Array items,String,Logger,"sum,array,math",1,arraySum
+Core routine responsible for arraySum.,"Array items, Function fn",void,PathUtils,"sum,array,math",2,arraySum
+Utility function used to arraySum.,String path,void,DatabaseService,"sum,array,math",1,arraySum
+Helper method that can arraySum.,String path,float,DataUtils,"sum,array,math",1,arraySum
+Provides capability to arraySum.,Array items,bool,Validator,"sum,array,math",1,arraySum
+Provides capability to arraySum.,"float value1, float value2",int,FileUtils,"sum,array,math",2,arraySum
+Adds functionality to arraySum.,"float value1, float value2",Object,NetworkService,"sum,array,math",2,arraySum
+Performs operation to arraySum.,"int a, int b",float,NetworkService,"sum,array,math",2,arraySum
+Adds functionality to arraySum.,"int a, int b",Object,NetworkService,"sum,array,math",2,arraySum
+Provides capability to arraySum.,"float value1, float value2",Object,DataUtils,"sum,array,math",2,arraySum
+Utility function used to arraySum.,Object data,Object,CompressionUtils,"sum,array,math",1,arraySum
+Internal method designed to arraySum.,"float value1, float value2",bool,MathUtils,"sum,array,math",2,arraySum
+Provides capability to arrayAverage.,"Array items, Function fn",void,ConfigService,"average,array,math",2,arrayAverage
+API endpoint helper to arrayAverage.,"Array items, Function fn",bool,AuthService,"average,array,math",2,arrayAverage
+Provides capability to arrayAverage.,Object data,int,CompressionUtils,"average,array,math",1,arrayAverage
+Internal method designed to arrayAverage.,String text,bool,MathUtils,"average,array,math",1,arrayAverage
+Performs operation to arrayAverage.,String path,Array,Validator,"average,array,math",1,arrayAverage
+Utility function used to arrayAverage.,"Array items, Function fn",HttpResponse,CryptoUtils,"average,array,math",2,arrayAverage
+Implements logic to arrayAverage.,"Array items, Function fn",void,PathUtils,"average,array,math",2,arrayAverage
+Implements logic to arrayAverage.,String text,Array,ConfigService,"average,array,math",1,arrayAverage
+Utility function used to arrayAverage.,"String source, String destination",Array,CompressionUtils,"average,array,math",2,arrayAverage
+Service layer function to arrayAverage.,String input,void,ConfigService,"average,array,math",1,arrayAverage
+Utility function used to arrayAverage.,String text,Array,Parser,"average,array,math",1,arrayAverage
+Helper method that can arrayAverage.,Object data,float,PathUtils,"average,array,math",1,arrayAverage
+Performs operation to groupByKey.,String url,Object,FileUtils,"group,array,collection",1,groupByKey
+Core routine responsible for groupByKey.,"String source, String destination",Array,CompressionUtils,"group,array,collection",2,groupByKey
+Adds functionality to groupByKey.,"String source, String destination",String,SystemUtils,"group,array,collection",2,groupByKey
+Internal method designed to groupByKey.,"int a, int b",void,AuthService,"group,array,collection",2,groupByKey
+Core routine responsible for groupByKey.,"Array items, Function fn",float,HttpClient,"group,array,collection",2,groupByKey
+Utility function used to groupByKey.,"float value1, float value2",HttpResponse,JsonUtils,"group,array,collection",2,groupByKey
+Performs operation to groupByKey.,Array items,int,SecurityUtils,"group,array,collection",1,groupByKey
+Core routine responsible for groupByKey.,String url,int,ConfigService,"group,array,collection",1,groupByKey
+Service layer function to groupByKey.,String url,Array,ImageProcessor,"group,array,collection",1,groupByKey
+Helper method that can groupByKey.,Object data,int,DateUtils,"group,array,collection",1,groupByKey
+Implements logic to groupByKey.,String path,bool,Logger,"group,array,collection",1,groupByKey
+Utility function used to groupByKey.,Object data,void,CollectionUtils,"group,array,collection",1,groupByKey
+Core routine responsible for read file.,"int a, int b",HttpResponse,AudioProcessor,"read,file,filesystem",2,readFile
+Performs operation to read file.,"String source, String destination",float,DatabaseService,"read,file,filesystem",2,readFile
+Performs operation to read file.,"String source, String destination",float,PathUtils,"read,file,filesystem",2,readFile
+Utility function used to read file.,"float value1, float value2",Array,PathUtils,"read,file,filesystem",2,readFile
+Implements logic to read file.,"float value1, float value2",Array,ConfigService,"read,file,filesystem",2,readFile
+Implements logic to read file.,String url,String,CompressionUtils,"read,file,filesystem",1,readFile
+Core routine responsible for read file.,String text,int,ConfigService,"read,file,filesystem",1,readFile
+Service layer function to read file.,"int a, int b",HttpResponse,CompressionUtils,"read,file,filesystem",2,readFile
+Core routine responsible for read file.,String text,HttpResponse,StringUtils,"read,file,filesystem",1,readFile
+Utility function used to read file.,String path,float,SystemUtils,"read,file,filesystem",1,readFile
+Provides capability to read file.,String url,Object,SystemUtils,"read,file,filesystem",1,readFile
+Provides capability to read file.,"String source, String destination",String,CollectionUtils,"read,file,filesystem",2,readFile
+Service layer function to write file.,"String source, String destination",HttpResponse,DateUtils,"write,file,filesystem",2,writeFile
+Provides capability to write file.,String text,void,DatabaseService,"write,file,filesystem",1,writeFile
+Helper method that can write file.,Object data,String,CollectionUtils,"write,file,filesystem",1,writeFile
+Performs operation to write file.,String text,int,DateUtils,"write,file,filesystem",1,writeFile
+Internal method designed to write file.,Array items,String,SystemUtils,"write,file,filesystem",1,writeFile
+Provides capability to write file.,"String source, String destination",int,DatabaseService,"write,file,filesystem",2,writeFile
+API endpoint helper to write file.,Object data,int,ArrayUtils,"write,file,filesystem",1,writeFile
+Adds functionality to write file.,Array items,Array,NetworkService,"write,file,filesystem",1,writeFile
+Performs operation to write file.,String url,Object,SecurityUtils,"write,file,filesystem",1,writeFile
+Helper method that can write file.,Array items,bool,FileUtils,"write,file,filesystem",1,writeFile
+Internal method designed to write file.,"Array items, Function fn",HttpResponse,FileUtils,"write,file,filesystem",2,writeFile
+Service layer function to write file.,String path,Array,HttpClient,"write,file,filesystem",1,writeFile
+Utility function used to appendTo file.,String input,Object,DatabaseService,"append,file,filesystem",1,appendToFile
+Performs operation to appendTo file.,String path,HttpResponse,ConfigService,"append,file,filesystem",1,appendToFile
+Core routine responsible for appendTo file.,"String source, String destination",int,ArrayUtils,"append,file,filesystem",2,appendToFile
+Core routine responsible for appendTo file.,String text,int,Parser,"append,file,filesystem",1,appendToFile
+Implements logic to appendTo file.,String text,void,DataUtils,"append,file,filesystem",1,appendToFile
+Service layer function to appendTo file.,String text,void,HttpClient,"append,file,filesystem",1,appendToFile
+Implements logic to appendTo file.,String url,float,NetworkService,"append,file,filesystem",1,appendToFile
+Implements logic to appendTo file.,"String source, String destination",float,StringUtils,"append,file,filesystem",2,appendToFile
+Provides capability to appendTo file.,String path,String,DataUtils,"append,file,filesystem",1,appendToFile
+Core routine responsible for appendTo file.,String url,int,Parser,"append,file,filesystem",1,appendToFile
+Provides capability to appendTo file.,Array items,bool,CacheService,"append,file,filesystem",1,appendToFile
+Helper method that can appendTo file.,String path,int,Formatter,"append,file,filesystem",1,appendToFile
+Adds functionality to delete file.,String path,Object,JsonUtils,"delete,file,filesystem",1,deleteFile
+Core routine responsible for delete file.,String input,String,JsonUtils,"delete,file,filesystem",1,deleteFile
+Implements logic to delete file.,Object data,float,Logger,"delete,file,filesystem",1,deleteFile
+Provides capability to delete file.,"String source, String destination",Array,FileUtils,"delete,file,filesystem",2,deleteFile
+Helper method that can delete file.,"String source, String destination",bool,CryptoUtils,"delete,file,filesystem",2,deleteFile
+Utility function used to delete file.,"float value1, float value2",void,NetworkService,"delete,file,filesystem",2,deleteFile
+Service layer function to delete file.,String input,int,CryptoUtils,"delete,file,filesystem",1,deleteFile
+Provides capability to delete file.,String path,String,JsonUtils,"delete,file,filesystem",1,deleteFile
+Utility function used to delete file.,"Array items, Function fn",HttpResponse,ConfigService,"delete,file,filesystem",2,deleteFile
+Core routine responsible for delete file.,"float value1, float value2",String,Parser,"delete,file,filesystem",2,deleteFile
+Performs operation to delete file.,Array items,Array,SystemUtils,"delete,file,filesystem",1,deleteFile
+Core routine responsible for delete file.,"int a, int b",String,SystemUtils,"delete,file,filesystem",2,deleteFile
+Utility function used to copy file.,Object data,bool,PathUtils,"copy,file,filesystem",1,copyFile
+Implements logic to copy file.,String text,Object,MathUtils,"copy,file,filesystem",1,copyFile
+Helper method that can copy file.,"float value1, float value2",Object,DatabaseService,"copy,file,filesystem",2,copyFile
+Adds functionality to copy file.,String url,bool,Validator,"copy,file,filesystem",1,copyFile
+Implements logic to copy file.,"float value1, float value2",void,JsonUtils,"copy,file,filesystem",2,copyFile
+Core routine responsible for copy file.,String input,String,CacheService,"copy,file,filesystem",1,copyFile
+Internal method designed to copy file.,Object data,Object,ArrayUtils,"copy,file,filesystem",1,copyFile
+Core routine responsible for copy file.,String url,int,ImageProcessor,"copy,file,filesystem",1,copyFile
+Utility function used to copy file.,Array items,String,CacheService,"copy,file,filesystem",1,copyFile
+Service layer function to copy file.,"float value1, float value2",bool,CacheService,"copy,file,filesystem",2,copyFile
+Core routine responsible for copy file.,String url,bool,NetworkService,"copy,file,filesystem",1,copyFile
+Internal method designed to copy file.,String input,bool,ArrayUtils,"copy,file,filesystem",1,copyFile
+Internal method designed to move file.,String url,String,Formatter,"move,file,filesystem",1,moveFile
+API endpoint helper to move file.,"float value1, float value2",void,CompressionUtils,"move,file,filesystem",2,moveFile
+Performs operation to move file.,String path,Array,PathUtils,"move,file,filesystem",1,moveFile
+Helper method that can move file.,"Array items, Function fn",HttpResponse,Logger,"move,file,filesystem",2,moveFile
+Adds functionality to move file.,Array items,Array,PathUtils,"move,file,filesystem",1,moveFile
+Helper method that can move file.,String url,bool,CompressionUtils,"move,file,filesystem",1,moveFile
+Provides capability to move file.,String input,float,HttpClient,"move,file,filesystem",1,moveFile
+Core routine responsible for move file.,"String source, String destination",Array,CacheService,"move,file,filesystem",2,moveFile
+Helper method that can move file.,String path,void,HttpClient,"move,file,filesystem",1,moveFile
+Provides capability to move file.,String text,Object,MathUtils,"move,file,filesystem",1,moveFile
+API endpoint helper to move file.,"int a, int b",int,SystemUtils,"move,file,filesystem",2,moveFile
+Core routine responsible for move file.,"Array items, Function fn",float,FileUtils,"move,file,filesystem",2,moveFile
+Internal method designed to fileExists.,String url,bool,Formatter,"exists,file,filesystem",1,fileExists
+Internal method designed to fileExists.,"String source, String destination",HttpResponse,CacheService,"exists,file,filesystem",2,fileExists
+API endpoint helper to fileExists.,String url,Object,Validator,"exists,file,filesystem",1,fileExists
+Implements logic to fileExists.,"Array items, Function fn",int,Validator,"exists,file,filesystem",2,fileExists
+Helper method that can fileExists.,Object data,float,SecurityUtils,"exists,file,filesystem",1,fileExists
+Implements logic to fileExists.,"float value1, float value2",String,ImageProcessor,"exists,file,filesystem",2,fileExists
+Adds functionality to fileExists.,Array items,float,CompressionUtils,"exists,file,filesystem",1,fileExists
+Core routine responsible for fileExists.,String text,float,NetworkService,"exists,file,filesystem",1,fileExists
+Provides capability to fileExists.,"float value1, float value2",void,Validator,"exists,file,filesystem",2,fileExists
+Adds functionality to fileExists.,"float value1, float value2",int,ConfigService,"exists,file,filesystem",2,fileExists
+API endpoint helper to fileExists.,String url,Array,Logger,"exists,file,filesystem",1,fileExists
+API endpoint helper to fileExists.,"Array items, Function fn",Array,SecurityUtils,"exists,file,filesystem",2,fileExists
+Core routine responsible for create file.,"String source, String destination",int,AudioProcessor,"create,file,filesystem",2,createFile
+Core routine responsible for create file.,"Array items, Function fn",bool,DateUtils,"create,file,filesystem",2,createFile
+Implements logic to create file.,String text,int,Logger,"create,file,filesystem",1,createFile
+Service layer function to create file.,"float value1, float value2",String,Parser,"create,file,filesystem",2,createFile
+Helper method that can create file.,String url,Object,Logger,"create,file,filesystem",1,createFile
+Provides capability to create file.,String text,HttpResponse,AuthService,"create,file,filesystem",1,createFile
+Performs operation to create file.,"int a, int b",HttpResponse,CryptoUtils,"create,file,filesystem",2,createFile
+Service layer function to create file.,"String source, String destination",bool,MathUtils,"create,file,filesystem",2,createFile
+Helper method that can create file.,String text,void,DatabaseService,"create,file,filesystem",1,createFile
+Helper method that can create file.,String url,Array,SecurityUtils,"create,file,filesystem",1,createFile
+Performs operation to create file.,"Array items, Function fn",String,JsonUtils,"create,file,filesystem",2,createFile
+Helper method that can create file.,Array items,bool,NetworkService,"create,file,filesystem",1,createFile
+Service layer function to get fileSize.,String path,bool,ImageProcessor,"size,file,metadata",1,getFileSize
+Adds functionality to get fileSize.,String text,Object,JsonUtils,"size,file,metadata",1,getFileSize
+API endpoint helper to get fileSize.,String url,bool,CollectionUtils,"size,file,metadata",1,getFileSize
+Adds functionality to get fileSize.,String path,HttpResponse,CompressionUtils,"size,file,metadata",1,getFileSize
+Implements logic to get fileSize.,"float value1, float value2",Object,ConfigService,"size,file,metadata",2,getFileSize
+Performs operation to get fileSize.,String text,void,PathUtils,"size,file,metadata",1,getFileSize
+API endpoint helper to get fileSize.,"String source, String destination",HttpResponse,CryptoUtils,"size,file,metadata",2,getFileSize
+API endpoint helper to get fileSize.,String text,HttpResponse,AudioProcessor,"size,file,metadata",1,getFileSize
+Performs operation to get fileSize.,String url,HttpResponse,Logger,"size,file,metadata",1,getFileSize
+Adds functionality to get fileSize.,String path,void,ArrayUtils,"size,file,metadata",1,getFileSize
+Utility function used to get fileSize.,String text,void,JsonUtils,"size,file,metadata",1,getFileSize
+Service layer function to get fileSize.,"String source, String destination",String,AuthService,"size,file,metadata",2,getFileSize
+Provides capability to list files.,String input,HttpResponse,ImageProcessor,"list,file,directory",1,listFiles
+Helper method that can list files.,Object data,float,Parser,"list,file,directory",1,listFiles
+Provides capability to list files.,String path,float,JsonUtils,"list,file,directory",1,listFiles
+Provides capability to list files.,"String source, String destination",String,CryptoUtils,"list,file,directory",2,listFiles
+Helper method that can list files.,"float value1, float value2",void,DataUtils,"list,file,directory",2,listFiles
+Performs operation to list files.,"int a, int b",bool,DateUtils,"list,file,directory",2,listFiles
+Utility function used to list files.,"Array items, Function fn",Object,DataUtils,"list,file,directory",2,listFiles
+Internal method designed to list files.,Object data,Array,Logger,"list,file,directory",1,listFiles
+Service layer function to list files.,String input,void,NetworkService,"list,file,directory",1,listFiles
+Helper method that can list files.,"float value1, float value2",Object,StringUtils,"list,file,directory",2,listFiles
+Helper method that can list files.,"String source, String destination",String,DateUtils,"list,file,directory",2,listFiles
+Implements logic to list files.,"float value1, float value2",HttpResponse,AudioProcessor,"list,file,directory",2,listFiles
+API endpoint helper to readJson file.,Object data,String,Parser,"read,json,file",1,readJsonFile
+Adds functionality to readJson file.,String text,HttpResponse,Logger,"read,json,file",1,readJsonFile
+Utility function used to readJson file.,String text,HttpResponse,JsonUtils,"read,json,file",1,readJsonFile
+Adds functionality to readJson file.,String input,Array,AudioProcessor,"read,json,file",1,readJsonFile
+API endpoint helper to readJson file.,"int a, int b",void,NetworkService,"read,json,file",2,readJsonFile
+Implements logic to readJson file.,Object data,bool,DateUtils,"read,json,file",1,readJsonFile
+Helper method that can readJson file.,String text,void,NetworkService,"read,json,file",1,readJsonFile
+Helper method that can readJson file.,"Array items, Function fn",HttpResponse,JsonUtils,"read,json,file",2,readJsonFile
+Utility function used to readJson file.,"Array items, Function fn",HttpResponse,DataUtils,"read,json,file",2,readJsonFile
+Implements logic to readJson file.,"float value1, float value2",float,JsonUtils,"read,json,file",2,readJsonFile
+Service layer function to readJson file.,"String source, String destination",void,CompressionUtils,"read,json,file",2,readJsonFile
+Adds functionality to readJson file.,"String source, String destination",bool,ArrayUtils,"read,json,file",2,readJsonFile
+Implements logic to writeJson file.,"int a, int b",Array,CollectionUtils,"write,json,file",2,writeJsonFile
+Utility function used to writeJson file.,"Array items, Function fn",bool,CollectionUtils,"write,json,file",2,writeJsonFile
+Provides capability to writeJson file.,String path,void,CryptoUtils,"write,json,file",1,writeJsonFile
+Internal method designed to writeJson file.,Array items,float,DatabaseService,"write,json,file",1,writeJsonFile
+Implements logic to writeJson file.,Array items,float,SystemUtils,"write,json,file",1,writeJsonFile
+Helper method that can writeJson file.,"Array items, Function fn",float,NetworkService,"write,json,file",2,writeJsonFile
+Performs operation to writeJson file.,"float value1, float value2",String,SystemUtils,"write,json,file",2,writeJsonFile
+Implements logic to writeJson file.,String url,String,CryptoUtils,"write,json,file",1,writeJsonFile
+API endpoint helper to writeJson file.,Array items,int,ConfigService,"write,json,file",1,writeJsonFile
+API endpoint helper to writeJson file.,"int a, int b",Array,ImageProcessor,"write,json,file",2,writeJsonFile
+Implements logic to writeJson file.,"int a, int b",int,Parser,"write,json,file",2,writeJsonFile
+Implements logic to writeJson file.,"float value1, float value2",bool,ImageProcessor,"write,json,file",2,writeJsonFile
+Internal method designed to compress file.,"float value1, float value2",Array,StringUtils,"compress,archive,file",2,compressFile
+Performs operation to compress file.,String text,Array,NetworkService,"compress,archive,file",1,compressFile
+Performs operation to compress file.,String url,Array,CryptoUtils,"compress,archive,file",1,compressFile
+Provides capability to compress file.,Object data,void,Validator,"compress,archive,file",1,compressFile
+Core routine responsible for compress file.,"int a, int b",String,NetworkService,"compress,archive,file",2,compressFile
+Internal method designed to compress file.,"Array items, Function fn",Object,NetworkService,"compress,archive,file",2,compressFile
+Service layer function to compress file.,Array items,void,Validator,"compress,archive,file",1,compressFile
+Utility function used to compress file.,Array items,String,AudioProcessor,"compress,archive,file",1,compressFile
+Service layer function to compress file.,String url,Object,NetworkService,"compress,archive,file",1,compressFile
+Core routine responsible for compress file.,"String source, String destination",HttpResponse,Formatter,"compress,archive,file",2,compressFile
+Performs operation to compress file.,String input,float,AuthService,"compress,archive,file",1,compressFile
+Helper method that can compress file.,String text,int,JsonUtils,"compress,archive,file",1,compressFile
+Adds functionality to extractArchive.,String path,String,JsonUtils,"extract,archive,file",1,extractArchive
+Utility function used to extractArchive.,Object data,Array,AuthService,"extract,archive,file",1,extractArchive
+Implements logic to extractArchive.,"Array items, Function fn",bool,HttpClient,"extract,archive,file",2,extractArchive
+Utility function used to extractArchive.,String text,HttpResponse,HttpClient,"extract,archive,file",1,extractArchive
+Internal method designed to extractArchive.,"String source, String destination",String,ConfigService,"extract,archive,file",2,extractArchive
+Utility function used to extractArchive.,Array items,Object,CryptoUtils,"extract,archive,file",1,extractArchive
+API endpoint helper to extractArchive.,String path,Array,Parser,"extract,archive,file",1,extractArchive
+API endpoint helper to extractArchive.,Array items,Array,CacheService,"extract,archive,file",1,extractArchive
+Provides capability to extractArchive.,"float value1, float value2",bool,DataUtils,"extract,archive,file",2,extractArchive
+Adds functionality to extractArchive.,String input,float,FileUtils,"extract,archive,file",1,extractArchive
+API endpoint helper to extractArchive.,String url,void,NetworkService,"extract,archive,file",1,extractArchive
+Helper method that can extractArchive.,"int a, int b",Array,FileUtils,"extract,archive,file",2,extractArchive
+Provides capability to readCsv file.,String input,float,MathUtils,"csv,read,file",1,readCsvFile
+Service layer function to readCsv file.,"Array items, Function fn",int,AuthService,"csv,read,file",2,readCsvFile
+Adds functionality to readCsv file.,String url,bool,FileUtils,"csv,read,file",1,readCsvFile
+Provides capability to readCsv file.,String input,Array,ArrayUtils,"csv,read,file",1,readCsvFile
+Utility function used to readCsv file.,"int a, int b",HttpResponse,CryptoUtils,"csv,read,file",2,readCsvFile
+Service layer function to readCsv file.,String path,void,FileUtils,"csv,read,file",1,readCsvFile
+Adds functionality to readCsv file.,"String source, String destination",Object,AuthService,"csv,read,file",2,readCsvFile
+Adds functionality to readCsv file.,"float value1, float value2",String,CryptoUtils,"csv,read,file",2,readCsvFile
+Service layer function to readCsv file.,String text,float,PathUtils,"csv,read,file",1,readCsvFile
+Helper method that can readCsv file.,"float value1, float value2",HttpResponse,ArrayUtils,"csv,read,file",2,readCsvFile
+Helper method that can readCsv file.,"float value1, float value2",float,ArrayUtils,"csv,read,file",2,readCsvFile
+Implements logic to readCsv file.,"int a, int b",void,Parser,"csv,read,file",2,readCsvFile
+Adds functionality to writeCsv file.,Array items,int,HttpClient,"csv,write,file",1,writeCsvFile
+Utility function used to writeCsv file.,"float value1, float value2",Array,DateUtils,"csv,write,file",2,writeCsvFile
+Provides capability to writeCsv file.,String url,Object,NetworkService,"csv,write,file",1,writeCsvFile
+Provides capability to writeCsv file.,Object data,String,FileUtils,"csv,write,file",1,writeCsvFile
+Service layer function to writeCsv file.,"int a, int b",void,StringUtils,"csv,write,file",2,writeCsvFile
+Internal method designed to writeCsv file.,"String source, String destination",int,CacheService,"csv,write,file",2,writeCsvFile
+Core routine responsible for writeCsv file.,"String source, String destination",String,HttpClient,"csv,write,file",2,writeCsvFile
+Implements logic to writeCsv file.,"Array items, Function fn",void,ArrayUtils,"csv,write,file",2,writeCsvFile
+Utility function used to writeCsv file.,"Array items, Function fn",Array,SystemUtils,"csv,write,file",2,writeCsvFile
+Utility function used to writeCsv file.,"int a, int b",HttpResponse,FileUtils,"csv,write,file",2,writeCsvFile
+Helper method that can writeCsv file.,"Array items, Function fn",int,StringUtils,"csv,write,file",2,writeCsvFile
+Core routine responsible for writeCsv file.,Array items,float,SecurityUtils,"csv,write,file",1,writeCsvFile
+API endpoint helper to calculateChecksum.,"String source, String destination",float,SystemUtils,"checksum,file,hash",2,calculateChecksum
+Performs operation to calculateChecksum.,String input,int,HttpClient,"checksum,file,hash",1,calculateChecksum
+Adds functionality to calculateChecksum.,Object data,HttpResponse,AudioProcessor,"checksum,file,hash",1,calculateChecksum
+Implements logic to calculateChecksum.,String text,bool,SecurityUtils,"checksum,file,hash",1,calculateChecksum
+Internal method designed to calculateChecksum.,"int a, int b",void,AudioProcessor,"checksum,file,hash",2,calculateChecksum
+Implements logic to calculateChecksum.,String input,int,CompressionUtils,"checksum,file,hash",1,calculateChecksum
+Adds functionality to calculateChecksum.,String url,HttpResponse,NetworkService,"checksum,file,hash",1,calculateChecksum
+Implements logic to calculateChecksum.,String input,bool,PathUtils,"checksum,file,hash",1,calculateChecksum
+API endpoint helper to calculateChecksum.,Array items,bool,HttpClient,"checksum,file,hash",1,calculateChecksum
+Adds functionality to calculateChecksum.,String text,float,FileUtils,"checksum,file,hash",1,calculateChecksum
+Helper method that can calculateChecksum.,String path,void,CompressionUtils,"checksum,file,hash",1,calculateChecksum
+Performs operation to calculateChecksum.,"Array items, Function fn",String,DataUtils,"checksum,file,hash",2,calculateChecksum
+Adds functionality to watch fileChanges.,"Array items, Function fn",Object,StringUtils,"watch,file,filesystem",2,watchFileChanges
+Implements logic to watch fileChanges.,String path,String,Formatter,"watch,file,filesystem",1,watchFileChanges
+Provides capability to watch fileChanges.,String path,void,FileUtils,"watch,file,filesystem",1,watchFileChanges
+Service layer function to watch fileChanges.,Object data,void,AuthService,"watch,file,filesystem",1,watchFileChanges
+API endpoint helper to watch fileChanges.,String text,Object,AudioProcessor,"watch,file,filesystem",1,watchFileChanges
+Utility function used to watch fileChanges.,"String source, String destination",int,AuthService,"watch,file,filesystem",2,watchFileChanges
+Implements logic to watch fileChanges.,String path,void,AuthService,"watch,file,filesystem",1,watchFileChanges
+Utility function used to watch fileChanges.,String path,String,DatabaseService,"watch,file,filesystem",1,watchFileChanges
+Core routine responsible for watch fileChanges.,Array items,Object,CollectionUtils,"watch,file,filesystem",1,watchFileChanges
+Implements logic to watch fileChanges.,String path,Array,SecurityUtils,"watch,file,filesystem",1,watchFileChanges
+Helper method that can watch fileChanges.,"String source, String destination",String,SecurityUtils,"watch,file,filesystem",2,watchFileChanges
+Adds functionality to watch fileChanges.,"Array items, Function fn",float,Logger,"watch,file,filesystem",2,watchFileChanges
+Implements logic to sendGet request.,String text,HttpResponse,CompressionUtils,"http,get,api",1,sendGetRequest
+Implements logic to sendGet request.,String text,int,DatabaseService,"http,get,api",1,sendGetRequest
+Adds functionality to sendGet request.,"String source, String destination",HttpResponse,HttpClient,"http,get,api",2,sendGetRequest
+Core routine responsible for sendGet request.,"String source, String destination",Object,StringUtils,"http,get,api",2,sendGetRequest
+Adds functionality to sendGet request.,String path,Object,PathUtils,"http,get,api",1,sendGetRequest
+Implements logic to sendGet request.,Array items,Object,Validator,"http,get,api",1,sendGetRequest
+Adds functionality to sendGet request.,Object data,Object,DateUtils,"http,get,api",1,sendGetRequest
+Provides capability to sendGet request.,"float value1, float value2",HttpResponse,PathUtils,"http,get,api",2,sendGetRequest
+Implements logic to sendGet request.,"String source, String destination",int,DatabaseService,"http,get,api",2,sendGetRequest
+Performs operation to sendGet request.,"int a, int b",float,FileUtils,"http,get,api",2,sendGetRequest
+Utility function used to sendGet request.,"float value1, float value2",void,JsonUtils,"http,get,api",2,sendGetRequest
+Implements logic to sendGet request.,String input,int,DataUtils,"http,get,api",1,sendGetRequest
+Performs operation to sendPost request.,String path,bool,CacheService,"http,post,api",1,sendPostRequest
+Provides capability to sendPost request.,"String source, String destination",bool,ImageProcessor,"http,post,api",2,sendPostRequest
+Adds functionality to sendPost request.,"String source, String destination",void,FileUtils,"http,post,api",2,sendPostRequest
+Core routine responsible for sendPost request.,String input,Array,JsonUtils,"http,post,api",1,sendPostRequest
+Service layer function to sendPost request.,String url,Array,Logger,"http,post,api",1,sendPostRequest
+Performs operation to sendPost request.,"int a, int b",bool,NetworkService,"http,post,api",2,sendPostRequest
+Performs operation to sendPost request.,Object data,void,Parser,"http,post,api",1,sendPostRequest
+Service layer function to sendPost request.,String url,void,CryptoUtils,"http,post,api",1,sendPostRequest
+Helper method that can sendPost request.,Object data,void,Logger,"http,post,api",1,sendPostRequest
+Service layer function to sendPost request.,String path,int,JsonUtils,"http,post,api",1,sendPostRequest
+Utility function used to sendPost request.,String text,Object,StringUtils,"http,post,api",1,sendPostRequest
+Service layer function to sendPost request.,"Array items, Function fn",Array,AudioProcessor,"http,post,api",2,sendPostRequest
+API endpoint helper to download file.,String url,int,JsonUtils,"download,http,file",1,downloadFile
+Provides capability to download file.,"Array items, Function fn",Object,Validator,"download,http,file",2,downloadFile
+Helper method that can download file.,"String source, String destination",HttpResponse,NetworkService,"download,http,file",2,downloadFile
+Internal method designed to download file.,String path,HttpResponse,ImageProcessor,"download,http,file",1,downloadFile
+Provides capability to download file.,"int a, int b",bool,CryptoUtils,"download,http,file",2,downloadFile
+Utility function used to download file.,String input,String,Formatter,"download,http,file",1,downloadFile
+Utility function used to download file.,"String source, String destination",String,HttpClient,"download,http,file",2,downloadFile
+Core routine responsible for download file.,String url,void,AuthService,"download,http,file",1,downloadFile
+Provides capability to download file.,String path,bool,CryptoUtils,"download,http,file",1,downloadFile
+API endpoint helper to download file.,String text,float,DataUtils,"download,http,file",1,downloadFile
+Provides capability to download file.,"int a, int b",Array,SystemUtils,"download,http,file",2,downloadFile
+Provides capability to download file.,"String source, String destination",Array,CollectionUtils,"download,http,file",2,downloadFile
+Internal method designed to upload file.,Array items,bool,Validator,"upload,http,file",1,uploadFile
+Adds functionality to upload file.,String text,HttpResponse,MathUtils,"upload,http,file",1,uploadFile
+Service layer function to upload file.,String input,bool,CollectionUtils,"upload,http,file",1,uploadFile
+Service layer function to upload file.,"Array items, Function fn",void,MathUtils,"upload,http,file",2,uploadFile
+Internal method designed to upload file.,String text,String,ConfigService,"upload,http,file",1,uploadFile
+API endpoint helper to upload file.,String path,Array,DatabaseService,"upload,http,file",1,uploadFile
+Service layer function to upload file.,String url,String,DatabaseService,"upload,http,file",1,uploadFile
+Core routine responsible for upload file.,"int a, int b",String,AudioProcessor,"upload,http,file",2,uploadFile
+Utility function used to upload file.,"float value1, float value2",Array,SecurityUtils,"upload,http,file",2,uploadFile
+Core routine responsible for upload file.,String url,HttpResponse,Logger,"upload,http,file",1,uploadFile
+Implements logic to upload file.,Object data,Array,CryptoUtils,"upload,http,file",1,uploadFile
+Performs operation to upload file.,String text,Object,StringUtils,"upload,http,file",1,uploadFile
+Provides capability to openConnection.,String path,void,Logger,"connect,network",1,openConnection
+Utility function used to openConnection.,String url,float,Formatter,"connect,network",1,openConnection
+Internal method designed to openConnection.,String text,HttpResponse,FileUtils,"connect,network",1,openConnection
+Provides capability to openConnection.,"Array items, Function fn",float,ConfigService,"connect,network",2,openConnection
+Performs operation to openConnection.,String input,HttpResponse,MathUtils,"connect,network",1,openConnection
+Implements logic to openConnection.,"float value1, float value2",Array,JsonUtils,"connect,network",2,openConnection
+Service layer function to openConnection.,"int a, int b",float,HttpClient,"connect,network",2,openConnection
+Helper method that can openConnection.,String input,HttpResponse,AuthService,"connect,network",1,openConnection
+Adds functionality to openConnection.,String path,void,ArrayUtils,"connect,network",1,openConnection
+Helper method that can openConnection.,String url,float,JsonUtils,"connect,network",1,openConnection
+Utility function used to openConnection.,"Array items, Function fn",void,CollectionUtils,"connect,network",2,openConnection
+Core routine responsible for openConnection.,"String source, String destination",int,CollectionUtils,"connect,network",2,openConnection
+Helper method that can closeConnection.,"String source, String destination",int,CryptoUtils,"disconnect,network",2,closeConnection
+Service layer function to closeConnection.,Object data,float,ArrayUtils,"disconnect,network",1,closeConnection
+Implements logic to closeConnection.,"float value1, float value2",bool,ImageProcessor,"disconnect,network",2,closeConnection
+Performs operation to closeConnection.,String url,bool,CacheService,"disconnect,network",1,closeConnection
+Adds functionality to closeConnection.,String path,float,Validator,"disconnect,network",1,closeConnection
+Provides capability to closeConnection.,"float value1, float value2",String,HttpClient,"disconnect,network",2,closeConnection
+Internal method designed to closeConnection.,String path,HttpResponse,ConfigService,"disconnect,network",1,closeConnection
+API endpoint helper to closeConnection.,String path,float,HttpClient,"disconnect,network",1,closeConnection
+API endpoint helper to closeConnection.,Object data,float,DatabaseService,"disconnect,network",1,closeConnection
+Adds functionality to closeConnection.,"int a, int b",Array,SecurityUtils,"disconnect,network",2,closeConnection
+Helper method that can closeConnection.,String text,String,ConfigService,"disconnect,network",1,closeConnection
+Provides capability to closeConnection.,String text,bool,DataUtils,"disconnect,network",1,closeConnection
+Performs operation to parseUrl.,Object data,Array,AuthService,"url,parse,network",1,parseUrl
+API endpoint helper to parseUrl.,String path,bool,DateUtils,"url,parse,network",1,parseUrl
+Helper method that can parseUrl.,"float value1, float value2",void,Parser,"url,parse,network",2,parseUrl
+Service layer function to parseUrl.,String url,bool,ArrayUtils,"url,parse,network",1,parseUrl
+Utility function used to parseUrl.,"Array items, Function fn",Object,StringUtils,"url,parse,network",2,parseUrl
+Implements logic to parseUrl.,Object data,void,AuthService,"url,parse,network",1,parseUrl
+Adds functionality to parseUrl.,"Array items, Function fn",float,Parser,"url,parse,network",2,parseUrl
+Service layer function to parseUrl.,Object data,String,ArrayUtils,"url,parse,network",1,parseUrl
+Core routine responsible for parseUrl.,Object data,HttpResponse,ImageProcessor,"url,parse,network",1,parseUrl
+Adds functionality to parseUrl.,String path,Object,Logger,"url,parse,network",1,parseUrl
+Performs operation to parseUrl.,String text,void,ArrayUtils,"url,parse,network",1,parseUrl
+Implements logic to parseUrl.,"Array items, Function fn",void,SecurityUtils,"url,parse,network",2,parseUrl
+Utility function used to encodeUrl.,"float value1, float value2",HttpResponse,FileUtils,"url,encode,network",2,encodeUrl
+Adds functionality to encodeUrl.,String text,bool,Logger,"url,encode,network",1,encodeUrl
+Helper method that can encodeUrl.,String url,HttpResponse,AudioProcessor,"url,encode,network",1,encodeUrl
+Service layer function to encodeUrl.,Array items,void,CacheService,"url,encode,network",1,encodeUrl
+Service layer function to encodeUrl.,Array items,int,CompressionUtils,"url,encode,network",1,encodeUrl
+Performs operation to encodeUrl.,"String source, String destination",bool,StringUtils,"url,encode,network",2,encodeUrl
+API endpoint helper to encodeUrl.,String input,HttpResponse,MathUtils,"url,encode,network",1,encodeUrl
+Performs operation to encodeUrl.,String path,Object,SystemUtils,"url,encode,network",1,encodeUrl
+Implements logic to encodeUrl.,String text,String,AuthService,"url,encode,network",1,encodeUrl
+Utility function used to encodeUrl.,"String source, String destination",String,ImageProcessor,"url,encode,network",2,encodeUrl
+API endpoint helper to encodeUrl.,Array items,void,DateUtils,"url,encode,network",1,encodeUrl
+Utility function used to encodeUrl.,"float value1, float value2",Object,SecurityUtils,"url,encode,network",2,encodeUrl
+Adds functionality to decodeUrl.,"String source, String destination",int,MathUtils,"url,decode,network",2,decodeUrl
+Core routine responsible for decodeUrl.,"int a, int b",bool,ConfigService,"url,decode,network",2,decodeUrl
+Service layer function to decodeUrl.,"Array items, Function fn",Object,Formatter,"url,decode,network",2,decodeUrl
+Adds functionality to decodeUrl.,"float value1, float value2",float,ConfigService,"url,decode,network",2,decodeUrl
+Provides capability to decodeUrl.,"String source, String destination",int,CompressionUtils,"url,decode,network",2,decodeUrl
+Implements logic to decodeUrl.,"float value1, float value2",String,AudioProcessor,"url,decode,network",2,decodeUrl
+Provides capability to decodeUrl.,"Array items, Function fn",Array,DatabaseService,"url,decode,network",2,decodeUrl
+Helper method that can decodeUrl.,"int a, int b",Array,Formatter,"url,decode,network",2,decodeUrl
+Core routine responsible for decodeUrl.,Array items,int,PathUtils,"url,decode,network",1,decodeUrl
+Implements logic to decodeUrl.,"Array items, Function fn",void,CollectionUtils,"url,decode,network",2,decodeUrl
+Implements logic to decodeUrl.,"int a, int b",String,DataUtils,"url,decode,network",2,decodeUrl
+Adds functionality to decodeUrl.,"Array items, Function fn",void,Validator,"url,decode,network",2,decodeUrl
+Core routine responsible for pingHost.,String text,int,DataUtils,"ping,network,latency",1,pingHost
+Helper method that can pingHost.,"String source, String destination",Object,JsonUtils,"ping,network,latency",2,pingHost
+Service layer function to pingHost.,Array items,bool,Logger,"ping,network,latency",1,pingHost
+Core routine responsible for pingHost.,String input,int,NetworkService,"ping,network,latency",1,pingHost
+Adds functionality to pingHost.,"String source, String destination",Array,Logger,"ping,network,latency",2,pingHost
+Provides capability to pingHost.,Object data,Array,AudioProcessor,"ping,network,latency",1,pingHost
+Helper method that can pingHost.,Array items,int,StringUtils,"ping,network,latency",1,pingHost
+Implements logic to pingHost.,Object data,bool,ArrayUtils,"ping,network,latency",1,pingHost
+Implements logic to pingHost.,String url,float,ImageProcessor,"ping,network,latency",1,pingHost
+Performs operation to pingHost.,"int a, int b",String,NetworkService,"ping,network,latency",2,pingHost
+Adds functionality to pingHost.,Object data,HttpResponse,PathUtils,"ping,network,latency",1,pingHost
+Internal method designed to pingHost.,"int a, int b",int,MathUtils,"ping,network,latency",2,pingHost
+Service layer function to resolveDns.,String path,String,JsonUtils,"dns,network,lookup",1,resolveDns
+Adds functionality to resolveDns.,String url,int,ImageProcessor,"dns,network,lookup",1,resolveDns
+Core routine responsible for resolveDns.,Array items,HttpResponse,DateUtils,"dns,network,lookup",1,resolveDns
+Internal method designed to resolveDns.,"Array items, Function fn",void,CollectionUtils,"dns,network,lookup",2,resolveDns
+Internal method designed to resolveDns.,String text,HttpResponse,DataUtils,"dns,network,lookup",1,resolveDns
+Implements logic to resolveDns.,"String source, String destination",String,SecurityUtils,"dns,network,lookup",2,resolveDns
+Core routine responsible for resolveDns.,"int a, int b",void,Parser,"dns,network,lookup",2,resolveDns
+Provides capability to resolveDns.,Array items,HttpResponse,DatabaseService,"dns,network,lookup",1,resolveDns
+Internal method designed to resolveDns.,"float value1, float value2",Object,Parser,"dns,network,lookup",2,resolveDns
+API endpoint helper to resolveDns.,Object data,int,CacheService,"dns,network,lookup",1,resolveDns
+Service layer function to resolveDns.,"String source, String destination",Array,CollectionUtils,"dns,network,lookup",2,resolveDns
+Adds functionality to resolveDns.,"float value1, float value2",Array,MathUtils,"dns,network,lookup",2,resolveDns
+Adds functionality to fetchApiData.,"String source, String destination",Array,Formatter,"api,fetch,http",2,fetchApiData
+Implements logic to fetchApiData.,"float value1, float value2",Array,DatabaseService,"api,fetch,http",2,fetchApiData
+Adds functionality to fetchApiData.,"String source, String destination",String,DataUtils,"api,fetch,http",2,fetchApiData
+Utility function used to fetchApiData.,"float value1, float value2",Array,AudioProcessor,"api,fetch,http",2,fetchApiData
+Implements logic to fetchApiData.,"int a, int b",Array,DatabaseService,"api,fetch,http",2,fetchApiData
+Internal method designed to fetchApiData.,String input,int,ConfigService,"api,fetch,http",1,fetchApiData
+Adds functionality to fetchApiData.,"Array items, Function fn",Object,HttpClient,"api,fetch,http",2,fetchApiData
+Utility function used to fetchApiData.,String text,Object,StringUtils,"api,fetch,http",1,fetchApiData
+Adds functionality to fetchApiData.,"float value1, float value2",bool,ConfigService,"api,fetch,http",2,fetchApiData
+Adds functionality to fetchApiData.,Object data,int,AudioProcessor,"api,fetch,http",1,fetchApiData
+Performs operation to fetchApiData.,"String source, String destination",void,FileUtils,"api,fetch,http",2,fetchApiData
+Core routine responsible for fetchApiData.,"String source, String destination",Object,HttpClient,"api,fetch,http",2,fetchApiData
+Utility function used to sendPut request.,"float value1, float value2",Object,CacheService,"http,put,api",2,sendPutRequest
+Internal method designed to sendPut request.,String input,String,DataUtils,"http,put,api",1,sendPutRequest
+Helper method that can sendPut request.,"Array items, Function fn",Array,Parser,"http,put,api",2,sendPutRequest
+Core routine responsible for sendPut request.,String text,void,SecurityUtils,"http,put,api",1,sendPutRequest
+API endpoint helper to sendPut request.,"float value1, float value2",void,Validator,"http,put,api",2,sendPutRequest
+API endpoint helper to sendPut request.,String path,String,Formatter,"http,put,api",1,sendPutRequest
+Provides capability to sendPut request.,"float value1, float value2",Object,DataUtils,"http,put,api",2,sendPutRequest
+Internal method designed to sendPut request.,String text,int,PathUtils,"http,put,api",1,sendPutRequest
+Implements logic to sendPut request.,"Array items, Function fn",float,CollectionUtils,"http,put,api",2,sendPutRequest
+Helper method that can sendPut request.,String text,HttpResponse,Validator,"http,put,api",1,sendPutRequest
+Service layer function to sendPut request.,Array items,Object,DatabaseService,"http,put,api",1,sendPutRequest
+Adds functionality to sendPut request.,String url,float,Validator,"http,put,api",1,sendPutRequest
+Core routine responsible for sendDelete request.,String text,void,SecurityUtils,"http,delete,api",1,sendDeleteRequest
+Performs operation to sendDelete request.,"int a, int b",void,HttpClient,"http,delete,api",2,sendDeleteRequest
+Implements logic to sendDelete request.,String path,HttpResponse,ArrayUtils,"http,delete,api",1,sendDeleteRequest
+Performs operation to sendDelete request.,String url,HttpResponse,FileUtils,"http,delete,api",1,sendDeleteRequest
+Provides capability to sendDelete request.,"int a, int b",float,Logger,"http,delete,api",2,sendDeleteRequest
+Provides capability to sendDelete request.,String path,Array,DataUtils,"http,delete,api",1,sendDeleteRequest
+Implements logic to sendDelete request.,Object data,bool,ConfigService,"http,delete,api",1,sendDeleteRequest
+Core routine responsible for sendDelete request.,Array items,float,Validator,"http,delete,api",1,sendDeleteRequest
+Service layer function to sendDelete request.,"int a, int b",Array,AuthService,"http,delete,api",2,sendDeleteRequest
+Core routine responsible for sendDelete request.,"int a, int b",String,CollectionUtils,"http,delete,api",2,sendDeleteRequest
+Implements logic to sendDelete request.,String text,void,HttpClient,"http,delete,api",1,sendDeleteRequest
+Internal method designed to sendDelete request.,String url,Object,StringUtils,"http,delete,api",1,sendDeleteRequest
+Utility function used to checkPortOpen.,String input,String,FileUtils,"port,network,scan",1,checkPortOpen
+Adds functionality to checkPortOpen.,"Array items, Function fn",bool,HttpClient,"port,network,scan",2,checkPortOpen
+Adds functionality to checkPortOpen.,"String source, String destination",bool,HttpClient,"port,network,scan",2,checkPortOpen
+Performs operation to checkPortOpen.,String path,void,DataUtils,"port,network,scan",1,checkPortOpen
+Provides capability to checkPortOpen.,String input,float,AuthService,"port,network,scan",1,checkPortOpen
+Adds functionality to checkPortOpen.,"String source, String destination",String,DataUtils,"port,network,scan",2,checkPortOpen
+Performs operation to checkPortOpen.,Array items,Object,AuthService,"port,network,scan",1,checkPortOpen
+Helper method that can checkPortOpen.,String url,float,AuthService,"port,network,scan",1,checkPortOpen
+Provides capability to checkPortOpen.,String url,float,CacheService,"port,network,scan",1,checkPortOpen
+Performs operation to checkPortOpen.,"float value1, float value2",int,Logger,"port,network,scan",2,checkPortOpen
+Adds functionality to checkPortOpen.,String text,Object,HttpClient,"port,network,scan",1,checkPortOpen
+Provides capability to checkPortOpen.,String url,String,Logger,"port,network,scan",1,checkPortOpen
+API endpoint helper to retry request.,String url,bool,MathUtils,"retry,http,network",1,retryRequest
+Core routine responsible for retry request.,String input,Array,PathUtils,"retry,http,network",1,retryRequest
+Adds functionality to retry request.,String url,Array,SystemUtils,"retry,http,network",1,retryRequest
+API endpoint helper to retry request.,"float value1, float value2",float,SystemUtils,"retry,http,network",2,retryRequest
+Core routine responsible for retry request.,String text,void,CompressionUtils,"retry,http,network",1,retryRequest
+Adds functionality to retry request.,"float value1, float value2",bool,AudioProcessor,"retry,http,network",2,retryRequest
+API endpoint helper to retry request.,"float value1, float value2",Object,DataUtils,"retry,http,network",2,retryRequest
+API endpoint helper to retry request.,"Array items, Function fn",float,AuthService,"retry,http,network",2,retryRequest
+Internal method designed to retry request.,String input,Array,ImageProcessor,"retry,http,network",1,retryRequest
+Implements logic to retry request.,Array items,bool,MathUtils,"retry,http,network",1,retryRequest
+Core routine responsible for retry request.,String text,void,MathUtils,"retry,http,network",1,retryRequest
+Service layer function to retry request.,"Array items, Function fn",int,FileUtils,"retry,http,network",2,retryRequest
+Helper method that can measureLatency.,String url,bool,SecurityUtils,"latency,network,test",1,measureLatency
+Adds functionality to measureLatency.,"float value1, float value2",float,ConfigService,"latency,network,test",2,measureLatency
+Service layer function to measureLatency.,String path,HttpResponse,JsonUtils,"latency,network,test",1,measureLatency
+Provides capability to measureLatency.,"Array items, Function fn",float,AudioProcessor,"latency,network,test",2,measureLatency
+Core routine responsible for measureLatency.,Array items,Array,JsonUtils,"latency,network,test",1,measureLatency
+Utility function used to measureLatency.,"String source, String destination",String,Parser,"latency,network,test",2,measureLatency
+Utility function used to measureLatency.,String url,float,HttpClient,"latency,network,test",1,measureLatency
+API endpoint helper to measureLatency.,"float value1, float value2",String,SecurityUtils,"latency,network,test",2,measureLatency
+Performs operation to measureLatency.,Array items,float,CollectionUtils,"latency,network,test",1,measureLatency
+Service layer function to measureLatency.,String path,Object,JsonUtils,"latency,network,test",1,measureLatency
+Adds functionality to measureLatency.,"Array items, Function fn",Array,ImageProcessor,"latency,network,test",2,measureLatency
+Internal method designed to measureLatency.,"int a, int b",bool,ArrayUtils,"latency,network,test",2,measureLatency
+Implements logic to buildQuery string.,String url,Object,SecurityUtils,"query,url,network",1,buildQueryString
+Helper method that can buildQuery string.,Object data,Object,HttpClient,"query,url,network",1,buildQueryString
+Adds functionality to buildQuery string.,"String source, String destination",HttpResponse,FileUtils,"query,url,network",2,buildQueryString
+API endpoint helper to buildQuery string.,"String source, String destination",bool,ConfigService,"query,url,network",2,buildQueryString
+Helper method that can buildQuery string.,"Array items, Function fn",int,Validator,"query,url,network",2,buildQueryString
+Implements logic to buildQuery string.,Object data,String,CacheService,"query,url,network",1,buildQueryString
+Performs operation to buildQuery string.,Object data,Object,StringUtils,"query,url,network",1,buildQueryString
+Implements logic to buildQuery string.,"Array items, Function fn",float,CacheService,"query,url,network",2,buildQueryString
+Service layer function to buildQuery string.,Object data,void,ImageProcessor,"query,url,network",1,buildQueryString
+Core routine responsible for buildQuery string.,String input,int,Formatter,"query,url,network",1,buildQueryString
+Utility function used to buildQuery string.,"String source, String destination",bool,MathUtils,"query,url,network",2,buildQueryString
+Service layer function to buildQuery string.,String path,String,DateUtils,"query,url,network",1,buildQueryString

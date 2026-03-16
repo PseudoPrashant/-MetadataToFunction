@@ -1,0 +1,354 @@
+Why each import?
+
+pandas → reads your CSV into a table
+pickle → saves your trained model to a file
+os → checks the saved file size
+train_test_split → splits data into train and test sets
+Pipeline → chains two steps (TF-IDF + classifier) together
+TfidfVectorizer → converts text into numbers the model understands
+MultinomialNB → the actual classifier (Naive Bayes)
+accuracy_score → measures how well the model did
+
+What is df?
+df stands for DataFrame. It's just a table — exactly like an Excel spreadsheet — that lives in your computer's memory.
+
+Why call it df?
+It's just a convention — like naming a list items or a number count. You could call it anything:
+
+Yes, exactly! df is a variable. " Its type is DataFrame "
+
+print(type(df["function_name"]))   # <class 'pandas.core.series.Series'>
+
+
+What's happening line by line
+
+df["combined"] → creates a brand new column called combined in your table
+df["description"] + " " + df["parameters"] + ... → joins all columns with a space between them, for every row at once
+.astype(str) → param_count is a number — we convert it to text so we can join it with the other strings
+df["combined"].iloc[0] → iloc[0] means "give me row number 0" — just to preview the first combined row
+
+
+What each variable means
+Variable                        What it contains
+X                               all the combined input sentences
+y                               all the correct function name labels
+X_train                         80% of inputs — for training
+y_train                         80% of labels — for training
+X_test                          20% of inputs — for testing
+y_test                          20% of labels — for testing
+
+
+What does random_state=42 do?
+Without it, the split is random every run — you'd get different rows each time. Setting random_state=42 freezes the randomness so the split is identical every time you run the code. The number 42 is just a popular convention — any number works.
+
+What is train_test_split?
+It's a function that shuffles and splits your data into two groups automatically.
+
+Imagine your 1080 rows as a deck of cards
+Before split — all 1080 rows together:
+┌──────────────────────────────────────────┐
+│  row1, row2, row3, row4 ... row1080      │
+└──────────────────────────────────────────┘
+
+train_test_split first shuffles them randomly, then cuts them:
+After split:
+┌────────────────────────────┐   ┌──────────────┐
+│  864 rows  (80%)           │   │ 216 rows(20%)│
+│  X_train / y_train         │   │ X_test/y_test│
+│  → model LEARNS from this  │   │ → model gets │
+│                            │   │   TESTED here│
+└────────────────────────────┘   └──────────────┘
+
+Why do we split at all?
+Imagine you gave a student the exam questions in advance while studying — they'd memorize the answers, not actually understand the subject.
+
+What does each piece of the output mean?
+pythonX_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+Output      Contains                            Size
+X_train     input sentences for training        864 rows
+y_train     correct answers for training        864 labels
+X_test      input sentences for testing         216 rows
+y_test      correct answers for testing         216 labels
+
+train_test_split shuffles your data and gives 80% to the model for learning and keeps 20% hidden to test it honestly.\
+
+
+What is random_state doing?
+When train_test_split runs, it randomly shuffles your 1080 rows before splitting. That randomness comes from a number called a seed.
+
+Why does the seed matter?
+Run this in your head — same code, no random_state:
+Run 1: Training rows → [row5, row2, row900 ...]  Accuracy: 97%
+Run 2: Training rows → [row1, row88, row340 ...] Accuracy: 94%
+Run 3: Training rows → [row7, row600, row12 ...]  Accuracy: 98%
+Your accuracy changes every run — which makes it impossible to know if your model actually improved or if you just got lucky with the split.
+With random_state=42:
+Run 1: same rows → Accuracy: 97%
+Run 2: same rows → Accuracy: 97%
+Run 3: same rows → Accuracy: 97%
+Consistent and reproducible every time. 
+
+
+Why specifically 42?
+Here's the honest answer — there is no technical reason whatsoever.
+42 became a joke in the ML/data science community. It's a reference to the book "The Hitchhiker's Guide to the Galaxy" by Douglas Adams, where a supercomputer is asked:
+"What is the answer to life, the universe, and everything?"
+After millions of years of computing, it answers:
+"42"
+Programmers found it funny and started using it as their default seed. It spread across tutorials, textbooks and courses until it became an unofficial global convention.
+
+
+algorithm being  used - TF-IDF and Multinomial Naive Bayes
+
+
+TF-IDF Explained Simply
+You have this sentence:
+"function to add two integers and returns their sum"
+The model can't read words — it only understands numbers. So we need to convert every word into a number that represents how important that word is.
+But not all words are equally useful:
+"function"  → appears in EVERY row → tells us nothing useful
+"add"       → appears in only a few rows → very helpful!
+"to"        → appears everywhere → useless
+"integers"  → fairly specific → somewhat helpful
+TF-IDF captures exactly this idea.
+
+
+
+Part 1 — TF (Term Frequency)
+How often does this word appear in THIS row?
+Row: "add two integers add sum add"
+      
+count("add")      = 3
+count("integers") = 1
+count("two")      = 1
+total words       = 6
+
+TF("add")      = 3/6 = 0.50
+TF("integers") = 1/6 = 0.17
+TF("two")      = 1/6 = 0.17
+More occurrences in this row → higher TF score.
+
+
+
+Part 2 — IDF (Inverse Document Frequency)
+How rare is this word across ALL rows?
+Imagine you have 1080 rows total:
+"function"  → appears in all 1080 rows
+"add"       → appears in only 12 rows
+"celsius"   → appears in only 4 rows
+
+IDF("function") = log(1080/1080) = log(1) = 0.0  → useless word
+IDF("add")      = log(1080/12)   = log(90) = 4.5  → useful word
+IDF("celsius")  = log(1080/4)    = log(270)= 5.6  → very useful word
+Rarer word across all rows → higher IDF score.
+
+
+
+Final score — TF × IDF
+TF-IDF("function") = 0.17 × 0.0 = 0.00  ← ignored
+TF-IDF("add")      = 0.50 × 4.5 = 2.25  ← important
+TF-IDF("celsius")  = 0.17 × 5.6 = 0.95  ← important
+
+TF-IDF gives each word a score — high score if the word appears often in THIS row but rarely across ALL rows. Common words like "function" score zero. Unique words like "celsius" score high. The result is a row of numbers that represents the meaning of your text.
+
+
+
+Multinomial Naive Bayes Algorithm
+During Prediction — it combines probabilities
+A new input comes in:
+"adds two integers int a int b MathUtils add sum arithmetic 2"
+For each possible function name it calculates:
+P(addNumbers | "add","integers","sum","arithmetic")
+  = P(add|addNumbers) × P(integers|addNumbers) × P(sum|addNumbers) × ...
+  = 0.96 × 0.91 × 0.88 × 0.85
+  = 0.65  ← highest ✅
+
+P(subtractNumbers | "add","integers","sum","arithmetic")
+  = 0.04 × 0.80 × 0.10 × 0.05
+  = 0.00016
+
+P(readFile | "add","integers","sum","arithmetic")
+  = 0.01 × 0.02 × 0.01 × 0.01
+  = 0.000000002
+It picks the function name with the highest probability:
+→ addNumbers ✅
+
+Why is it called "Naive"?
+It makes one naive assumption — it treats every word as completely independent from every other word.
+
+Is that a problem?
+Surprisingly — not really, especially for your use case:
+Real world accuracy with Naive Bayes:  98.61% ✅
+Even though the assumption is technically wrong, the algorithm still works extremely well for text classification. That's why it's been used for decades — spam filters, sentiment analysis
+
+Why "Multinomial" Naive Bayes specifically?
+There are different flavours of Naive Bayes:
+Type                    Best for
+MultinomialNB           text with word counts and TF-IDF scores
+GaussianNB              continuous numbers like height, weight
+BernoulliNB             binary data — word present or not
+Since TF-IDF gives us count-based scores for words, MultinomialNB is the perfect match.
+
+The full picture together
+Your text input
+      │
+      ▼
+┌──────────────────────────────────────┐
+│  TF-IDF                              │
+│  "add sum integers"                  │
+│       ↓                              │
+│  [0.68, 0.34, 0.26, 0.00, ...]       │
+└──────────────────────────────────────┘
+      │
+      ▼
+┌──────────────────────────────────────┐
+│  Naive Bayes                         │
+│  P(addNumbers | these numbers)= 0.96 │
+│  P(readFile   | these numbers)= 0.01 │
+│  P(convertTemp| these numbers)= 0.01 │
+│       ↓                              │
+│    addNumbers  ✅                    │
+└──────────────────────────────────────┘
+
+One line summary
+
+Naive Bayes learns the probability of each function name given each word during training. At prediction time it multiplies those probabilities together and picks the function name with the highest score.
+
+
+
+Creating the Pipeline
+Pipeline takes a list of steps — each step is a tuple with two things:
+("name",  algorithm)
+("tfidf", TfidfVectorizer())  ← you named it "tfidf"
+("clf",   MultinomialNB())    ← you named it "clf" (classifier)
+
+
+`.fit()` is the line where **actual learning happens**.
+
+What is model now?
+Before .fit():
+pythonmodel = Pipeline(...)   # just an empty structure, knows nothing
+After .fit():
+pythonmodel.fit(X_train, y_train)  # now filled with learned knowledge
+```
+
+Think of it like a student:
+```
+Before fit → blank notebook
+After fit  → notebook full of patterns and probabilities
+
+
+Measure the Accuracy
+y_pred = model.predict(X_test)
+```
+
+You're feeding the **216 test rows** the model has never seen before into the trained model. It predicts a function name for each one.
+```
+X_test[0]  → "reads file from disk..."  → model predicts → "readFile"
+X_test[1]  → "adds two integers..."     → model predicts → "addNumbers"
+X_test[2]  → "converts celsius..."      → model predicts → "convertTemp"
+...all 216 rows
+
+acc = accuracy_score(y_test, y_pred)
+```
+
+This compares your model's predictions against the **real answers**:
+```
+y_test  = ["readFile", "addNumbers", "convertTemp" ...]  ← real answers
+y_pred  = ["readFile", "addNumbers", "convertTemp" ...]  ← model's guesses
+
+Match?      ✅ yes          ✅ yes            ✅ yes
+```
+
+It counts how many matched and divides by total:
+```
+accuracy = correct predictions / total predictions
+         = 213 / 216
+         = 0.9861
+
+
+         print(f"Accuracy: {acc * 100:.2f}%")
+```
+
+`acc` is a decimal like `0.9861` — multiplying by 100 gives `98.61`. The `:.2f` means show 2 decimal places.
+
+
+
+achieved so far
+Step 1 ✅ Imports
+Step 2 ✅ Loaded dataset        → 1080 rows
+Step 3 ✅ Combined metadata     → one input string per row
+Step 4 ✅ Split data            → 864 train / 216 test
+Step 5 ✅ Built & trained model → TF-IDF + Naive Bayes
+Step 6 ✅ Measured accuracy     → 98.61% 🎯
+
+
+
+`open("function_name_model.pkl", "wb")`
+Creates a new file called `function_name_model.pkl` in your folder.
+- `.pkl` → stands for **pickle**, Python's format for saving objects
+- `"wb"` → means **write binary** — models are saved as binary data, not plain text
+
+### `pickle.dump(model, f)`
+Takes your entire trained model — all its learned probabilities — and writes it into that file.
+
+### `os.path.getsize(...)`
+Just checks how big the saved file is. 388 KB is tiny — this is what makes it **deployable on Android**.
+
+
+
+************ PREDICT.PY ******************************
+
+
+What is Inference?
+Training = teaching the model
+Inference = using the model to predict
+Think of it like this:
+Training   → student studies for weeks    → happens once
+Inference  → student takes the exam       → happens anytime
+You never retrain — you just load the saved model and ask it questions.
+
+
+Why only pickle this time?
+During training you needed many libraries because you were building and teaching the model. During inference you just:
+
+Load the already trained model
+Feed it an input
+Get a prediction back
+
+The model already has TF-IDF and Naive Bayes baked inside it — you don't need to import them again.
+
+
+train_model.py         predict.py
+──────────────         ──────────
+Load CSV         VS    Just load .pkl file
+Combine columns        Done in 2 lines
+Split data
+Train model
+Save model
+
+
+
+# new_input = ["Adds two integers int a int b int MathUtils add sum arithmetic 2"] #test run 0
+# prediction = model.predict(new_input)
+# print(f"Predicted function name: {prediction[0]}")
+
+# new_input = ["Reads contents of a file str filepath str FileUtils read file open 1"]  #test run 1
+# prediction = model.predict(new_input)
+# print(f"Predicted function name: {prediction[0]}")
+
+
+# new_input = ["Sends HTTP GET request to URL str url HttpResponse NetworkService http request api 1"] #test run 2
+# prediction = model.predict(new_input)
+# print(f"Predicted function name: {prediction[0]}")
+
+
+# new_input = ["Converts string to uppercase str text str StringUtils uppercase convert 1"] #test run 3
+# prediction = model.predict(new_input)
+# print(f"Predicted function name: {prediction[0]}")
+
+
+
