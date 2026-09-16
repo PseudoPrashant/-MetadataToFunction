@@ -1,2 +1,5 @@
 pandas
 scikit-learn
+pytest
+skl2onnx
+onnxruntime

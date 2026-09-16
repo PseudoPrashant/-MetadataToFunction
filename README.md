@@ -89,10 +89,8 @@ MathUtils, StringUtils, FileUtils, NetworkService, DateUtils, ArrayUtils, Crypto
 | Property | Value |
 |---|---|
 | Algorithm | TF-IDF + Multinomial Naive Bayes |
-| Test Accuracy | **98.61%** |
-| Model Size | **391.2 KB** |
-| Inference Speed | **0.45ms per prediction** |
-| Saved Format | `.pkl` (Python pickle) |
+| Optimization | GridSearchCV (tuning `ngram_range` and `alpha`) |
+| Saved Format | `.pkl` (Python pickle) and `.onnx` (for mobile deployment) |
 
 ---
 
@@ -210,15 +208,23 @@ Single prediction < 1ms: True
 
 ## Deployment
 
-This model is designed to run on Android and low-computation devices because:
+This model is designed to run on Android and low-computation devices because it is lightweight and fully offline.
 
-- **Size:** 391 KB — small enough to bundle inside any mobile app
-- **Speed:** 0.45ms per prediction — feels instant even on low-end devices
-- **No internet required:** runs fully offline once the model is loaded
-- **No GPU needed:** Naive Bayes runs on CPU only
+We automatically export an ONNX model (`function_name_model.onnx`) during training. 
+To deploy on Android:
+1. Import `onnxruntime-android`.
+2. Load `function_name_model.onnx`.
+3. Pass your metadata in as a 1D String Tensor.
 
-To deploy on Android, export the model using ONNX or use a Python-to-Android bridge like Chaquopy.
+---
 
+## Testing
+
+We use `pytest` for automated unit testing.
+
+```bash
+pytest tests/
+```
 ---
 
 ## Dependencies
