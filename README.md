@@ -100,15 +100,21 @@ MathUtils, StringUtils, FileUtils, NetworkService, DateUtils, ArrayUtils, Crypto
 
 ```
 MetadataToFunction/
-    ├── realistic_function_dataset_2160_rows.csv  # training dataset
-    ├── train_model.py                            # trains and saves the model
-    ├── predict.py                                # loads model and runs predictions
-    ├── model_info.py                             # checks model size and speed
+    ├── data/
+    │   └── trainingDataset.csv                   # training dataset
+    ├── models/
+    │   └── function_name_model.pkl               # generated model (excluded from git)
+    ├── src/
+    │   ├── train_model.py                        # trains and saves the model
+    │   ├── predict.py                            # interactive script for predictions
+    │   ├── model_info.py                         # checks model size and speed
+    │   └── utils.py                              # shared logic for metadata parsing
+    ├── requirements.txt                          # project dependencies
     ├── README.md                                 # this file
     └── .gitignore                                # excludes cache and model file
 ```
 
-> Note: `function_name_model.pkl` is not included in the repo. Generate it by running `train_model.py`.
+> Note: `function_name_model.pkl` is not included in the repo. Generate it by running `python src/train_model.py`.
 
 ---
 
@@ -122,12 +128,12 @@ cd MetadataToFunction
 
 **2. Install dependencies**
 ```bash
-pip install pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 **3. Train the model**
 ```bash
-python train_model.py
+python src/train_model.py
 ```
 
 This will generate `function_name_model.pkl` in your folder.
@@ -139,7 +145,7 @@ This will generate `function_name_model.pkl` in your folder.
 ### Running predictions
 
 ```bash
-python predict.py
+python src/predict.py
 ```
 
 **Example output:**
@@ -168,7 +174,7 @@ input = "Sends HTTP GET request str url HttpResponse NetworkService http request
 ### Checking model size and speed
 
 ```bash
-python model_info.py
+python src/model_info.py
 ```
 
 **Output:**
